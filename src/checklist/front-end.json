@@ -1,0 +1,819 @@
+{
+  "name": "Front-dev",
+  "group_categories": [
+    {
+      "title_group": "Head",
+      "categories": [
+        {
+          "title": "Meta tags",
+          "tasks": [
+            {
+              "title": "Doctype",
+              "links": [
+                {"path":"https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding",
+                  "text":"Determining the character encoding - HTML5 W3C",
+                  "type": "link"}
+              ],
+              "explications":"The Doctype is HTML5 and is at the top of all your HTML pages.",
+              "code":"<!doctype html> <!-- HTML5 -->",
+              "priority": "high"
+            },
+            {
+              "title": "Charset",
+              "explications":"The charset (UTF-8) is declared correctly.",
+              "code":"<!-- Set character encoding for the document -->\n<meta charset=\"utf-8\">",
+              "priority": "high"
+            },
+            {
+              "title": "X-UA-Compatible",
+              "links": [
+                {"path":"https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx",
+                  "text":"Specifying legacy document modes (Internet Explorer)",
+                  "type": "link"}
+              ],
+              "explications":"The X-UA-Compatible meta tag is present.",
+              "code":"<!-- Instruct Internet Explorer to use its latest rendering engine -->\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">",
+              "priority": "medium"
+            },
+            {
+              "title": "Viewport",
+              "explications":"The viewport is declared correctly.",
+              "code":"<!-- Viewport for responsive web design -->\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">",
+              "priority": "high"
+            },
+            {
+              "title": "Title",
+              "links": [
+                {"path":"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title",
+                  "text":"Title - HTML - MDN",
+                  "type": "link"},
+                {"path":"https://www.sistrix.com/serp-snippet-generator/",
+                  "text":"SERP Snippet Generator",
+                  "type": "tools"}
+              ],
+              "explications":"A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be around 55-characters).",
+              "code":"<!-- Document Title -->\n<title>Page Title less than 55 characters</title>",
+              "priority": "high"
+            },
+            {
+              "title": "Description",
+              "links": [
+                {"path":"https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description",
+                  "text":"Meta Description - HTML - MDN",
+                  "type": "link"}
+              ],
+              "explications":"A meta description is provided, it is unique and doesn't possess more than 150 characters.",
+              "code":"<!-- Meta Description -->\n<meta name=\"description\" content=\"Description of the page less than 150 characters\">",
+              "priority": "high"
+            },
+            {
+              "title": "Favicons",
+              "links": [
+                {"path":"https://www.favicon-generator.org/",
+                  "text":"Favicon Generator",
+                  "type": "tools"},
+                {"path":"https://realfavicongenerator.net/",
+                  "text":"RealFaviconGenerator",
+                  "type": "tools"},
+                {"path":"https://github.com/audreyr/favicon-cheat-sheet",
+                  "text":"Favicon Cheat Sheet",
+                  "type": "link"},
+                {"path":"https://css-tricks.com/favicon-quiz/",
+                  "text":"Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks",
+                  "type": "link"},
+                {"path":"https://caniuse.com/#feat=link-icon-png",
+                  "text":"PNG favicons - caniuse",
+                  "type": "link"}
+              ],
+              "explications":"Each favicon has been created and displays correctly. If you have only a favicon.ico, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, PNG format is recommended over .ico format (dimensions: 32x32px).",
+              "code":"<!-- Standard favicon -->\n<link rel=\"icon\" type=\"image/x-icon\" href=\"https://example.com/favicon.ico\">\n<!-- Recommended favicon format -->\n<link rel=\"icon\" type=\"image/png\" href=\"https://example.com/favicon.png\">",
+              "priority": "medium"
+            },
+            {
+              "title": "Apple Web App Meta",
+              "links": [
+                {"path":"https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html",
+                  "text":"Configuring Web Applications",
+                  "type": "link"},
+                {"path":"https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html",
+                  "text":"Supported Meta Tags",
+                  "type": "link"}
+              ],
+              "explications":"Apple meta-tags are present.",
+              "code":"<!-- Apple Touch Icon (at least 200x200px) -->\n<link rel=\"apple-touch-icon\" href=\"/custom-icon.png\">\n\n<!-- To run web application in full-screen -->\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n\n<!-- Status Bar Style (see Supported Meta Tags below for available values) -->\n<!-- Has no effect unless you have the previous meta tag -->\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">",
+              "priority": "low"
+            },
+            {
+              "title": "Windows Tiles",
+              "links": [
+                {"path":"https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx",
+                  "text":"Browser configuration schema reference",
+                  "type": "link"}
+              ],
+              "explications":"Windows tiles are present and linked.",
+              "code":"<!-- Microsoft Tiles -->\n<meta name=\"msapplication-config\" content=\"browserconfig.xml\" />",
+              "priority": "low"
+            },
+            {
+              "title": "Canonical",
+              "links": [
+                {"path":"https://support.google.com/webmasters/answer/139066?hl=en",
+                  "text":"Use canonical URLs - Search Console Help - Google Support",
+                  "type": "link"},
+                {"path":"https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html",
+                  "text":"5 common mistakes with rel=canonical - Google Webmaster Blog",
+                  "type": "link"}
+              ],
+              "explications":"Use rel=\"canonical\" to avoid duplicate content.",
+              "code":"<!-- Helps prevent duplicate content issues -->\n<link rel=\"canonical\" href=\"http://example.com/2017/09/a-new-article-to-read.html\">",
+              "priority": "low"
+            }
+          ]
+        },{
+          "title": "HTML tags",
+          "tasks":[
+            {
+              "title": "Language attribute",
+              "explications":"The lang attribute of your website is specified and related to the language of the current page.",
+              "code":"<html lang=\"en\">",
+              "priority": "high"
+            },
+            {
+              "title": "Direction attribute",
+              "links": [
+                {"path":"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir",
+                  "text":"dir - HTML - MDN",
+                  "type": "link"}
+              ],
+              "explications":"    The direction of lecture is specified on the html tag (It can be used on another HTML tag).",
+              "code":"<html dir=\"rtl\">",
+              "priority": "medium"
+            },
+            {
+              "title": "Alternate language",
+              "links": [
+                {"path":"The language tag of your website is specified and related to the language of the current page.",
+                  "text":"dir - HTML - MDN",
+                  "type": "link"}
+              ],
+              "explications":"The direction of lecture is specified on the html tag (It can be used on another HTML tag).",
+              "code":"<link rel=\"alternate\" href=\"https://es.example.com/\" hreflang=\"es\">",
+              "priority": "low"
+            },
+            {
+              "title": "Conditional comments",
+              "links": [
+                {"path":"https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx",
+                  "text":"About conditional comments (Internet Explorer) - MSDN - Microsoft",
+                  "type": "link"}
+              ],
+              "explications":"Conditional comments are present for IE if needed.",
+              "priority": "low"
+            },
+            {
+              "title": "RSS feed",
+              "explications":"If your project is a blog or has articles, an RSS link was provided.",
+              "priority": "low"
+            },
+            {
+              "title": "CSS Critical",
+              "links": [
+                {"path":"https://github.com/addyosmani/critical",
+                  "text":"Critical by Addy Osmani on GitHub ",
+                  "type": "tools"}
+              ],
+              "explications":"The CSS critical (or \"above the fold\") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between <style></style> in a single line (minified).",
+              "priority": "medium"
+            },
+            {
+              "title": "CSS order",
+              "explications":"All CSS files are loaded before any JavaScript files in the <head>. (Except the case where sometimes JS files are loaded asynchronously on top of your page).",
+              "priority": "high"
+            }
+          ]
+        },{
+          "title": "Social meta",
+          "tasks":[
+            {
+              "title": "Facebook Open Graph",
+              "links": [
+                {"path":"https://developers.facebook.com/docs/sharing/webmasters/",
+                  "text":"A Guide to Sharing for Webmasters",
+                  "type": "link"},
+                {"path":"https://developers.facebook.com/docs/sharing/best-practices/",
+                  "text":"Best Practices - Sharing",
+                  "type": "link"},
+                {"path":"https://developers.facebook.com/tools/debug/",
+                  "text":"Test your page with the Facebook OG testing",
+                  "type": "tools"}
+              ],
+              "explications":"All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, although 1200 x 630 pixels is recommended.",
+              "code":"<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:url\" content=\"https://example.com/page.html\">\n<meta property=\"og:title\" content=\"Content Title\">\n<meta property=\"og:image\" content=\"https://example.com/image.jpg\">\n<meta property=\"og:description\" content=\"Description Here\">\n<meta property=\"og:site_name\" content=\"Site Name\">\n<meta property=\"og:locale\" content=\"en_US\">\n<!-- Next tags are optional but recommended -->\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">",
+              "priority": "low"
+            },
+            {
+              "title": "Twitter Card",
+              "links": [
+                {"path":"https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started",
+                  "text":"Getting started with cards — Twitter Developers",
+                  "type": "link"},
+                {"path":"https://cards-dev.twitter.com/validator",
+                  "text":"Test your page with the Twitter card validator",
+                  "type": "tools"}
+              ],
+              "code":"<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@site_account\">\n<meta name=\"twitter:creator\" content=\"@individual_account\">\n<meta name=\"twitter:url\" content=\"https://example.com/page.html\">\n<meta name=\"twitter:title\" content=\"Content Title\">\n<meta name=\"twitter:description\" content=\"Content description less than 200 characters\">\n<meta name=\"twitter:image\" content=\"https://example.com/image.jpg\">",
+              "priority": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "HTML",
+      "categories": [
+        {
+          "title": "Best practices",
+          "tasks": [
+            {
+              "title": "HTML5 Semantic Elements",
+              "links": [
+                {"path":"http://htmlreference.io/",
+                  "text":"HTML Reference",
+                  "type": "link"}
+              ],
+              "explications":"HTML5 Semantic Elements are used appropriately (header, section, footer, main...).",
+              "priority": "high"
+            },
+            {
+              "title": "Error pages",
+              "explications":"Error 404 page and 5xx exist. Remember that the 5xx error pages need to have their CSS integrated (no external call on the current server).",
+              "priority": "high"
+            },
+            {
+              "title": "Noopener",
+              "links": [
+                {"path":"https://mathiasbynens.github.io/rel-noopener/",
+                  "text":"About rel=noopener",
+                  "type": "link"}
+              ],
+              "explications":"In case you are using external links with target=\"_blank\", your link should have a rel=\"noopener\" attribute to prevent tab nabbing. If you need to support older versions of Firefox, use rel=\"noopener noreferrer\".",
+              "priority": "medium"
+            },
+            {
+              "title": "Clean up comments",
+              "explications":"Unnecessary code needs to be removed before sending the page to production.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "title": "HTML testings",
+          "tasks": [
+
+            {
+              "title": "W3C compliant",
+              "links": [
+                {"path":"https://validator.w3.org/",
+                  "text":"W3C validator",
+                  "type": "tools"}
+              ],
+              "explications":"All pages need to be tested with the W3C validator to identify possible issues in the HTML code.",
+              "priority": "high"
+            },
+            {
+              "title": "HTML Lint",
+              "links": [
+                {"path":"https://dirtymarkup.com/",
+                  "text":"Dirty markup",
+                  "type": "tools"},
+                {"path":"https://sonarwhal.com/",
+                  "text":"Sonar a linting tool for the web",
+                  "type": "tools"}
+              ],
+              "explications":"I use tools to help me analyze any issues I could have on my HTML code.",
+              "priority": "high"
+            },
+            {
+              "title": "Link checker",
+              "links": [
+                {"path":"https://validator.w3.org/checklink",
+                  "text":"W3C Link Checker",
+                  "type": "tools"}
+              ],
+              "explications":"There are no broken links in my page, verify that you don't have any 404 error.",
+              "priority": "high"
+            },
+            {
+              "title": "Adblockers test",
+              "explications":"Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker).",
+              "priority": "medium"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Webfonts",
+      "categories": [
+        {
+          "title": "Webfont",
+          "tasks": [
+            {
+              "title": "WOFF, WOFF2 and TTF are supported by all modern browsers.",
+              "links": [
+                {"path":"https://caniuse.com/#feat=woff",
+                  "text":"WOFF - Web Open Font Format - Caniuse.",
+                  "type": "link"},
+                {"path":"https://caniuse.com/#feat=woff2",
+                  "text":"WOFF 2.0 - Web Open Font Format - Caniuse.",
+                  "type": "link"},
+                {"path":"https://caniuse.com/#feat=ttf",
+                  "text":"TTF/OTF - TrueType and OpenType font support",
+                  "type": "link"},
+                {"path":"https://css-tricks.com/snippets/css/using-font-face/",
+                  "text":"Using @font-face - CSS-Tricks",
+                  "type": "link"}
+              ],
+              "explications":"Webfont format",
+              "priority": "high"
+            },
+            {
+              "title": "Webfont size",
+              "explications":"Webfont sizes don't exceed 2 MB (all variants included).",
+              "priority": "high"
+            },
+            {
+              "title": "Webfont loader",
+              "links": [
+                {"path":"https://github.com/typekit/webfontloader",
+                  "text":"Typekit Web Font Loader",
+                  "type": "tools"}
+              ],
+              "explications":"Control loading behavior with a webfont loader.",
+              "priority": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "CSS",
+      "categories": [
+        {
+          "title": "CSS",
+          "tasks": [
+            {
+              "title": "Responsive Web Design",
+              "explications":"The website is using responsive web design.",
+              "priority": "high"
+            },
+            {
+              "title": "CSS Print",
+              "explications":"A print stylesheet is provided and is correct on each page.",
+              "priority": "medium"
+            },
+            {
+              "title": "Preprocessors",
+              "explications":"Your project is using a CSS preprocessor (e.g Sass, Less, Stylus).",
+              "priority": "low"
+            },
+            {
+              "title": "Unique ID",
+              "explications":"If IDs are used, they are unique to a page.",
+              "priority": "high"
+            },
+            {
+              "title": "Reset CSS",
+              "links": [
+                {"path":"https://meyerweb.com/eric/tools/css/reset/",
+                  "text":"Reset.css",
+                  "type": "link"},
+                {"path":"https://necolas.github.io/normalize.css/",
+                  "text":"Normalize.css",
+                  "type": "link"},
+                {"path":"https://getbootstrap.com/docs/4.0/content/reboot/",
+                  "text":"Reboot",
+                  "type": "link"}
+              ],
+              "explications":"A CSS reset (reset, normalize or reboot) is used and up to date. (If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)",
+              "priority": "high"
+            },
+            {
+              "title": "JS prefix",
+              "code":"<div id=\"js-slider\" class=\"my-slider\">\n<!-- Or -->\n<div id=\"id-used-by-cms\" class=\"js-slider my-slider\">",
+              "explications":"All classes (or id- used in JavaScript files) begin with js- and are not styled into the CSS files.",
+              "priority": "low"
+            },
+            {
+              "title": "embedded or inline CSS",
+              "explications":"Avoid at all cost embedding CSS in <style> tags or using inline CSS: only use for valid reasons (e.g. background-image for slider, critical CSS).",
+              "priority": "high"
+            },
+            {
+              "title": "Vendor prefixes",
+              "explications":"CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.",
+              "links": [
+                {"path":"https://autoprefixer.github.io/",
+                  "text":"Autoprefixer CSS online",
+                  "type": "tools"}
+              ],
+              "priority": "high"
+            }
+          ]
+        },
+            {
+              "title": "Performance",
+              "tasks": [
+                {
+                  "title": "Concatenation",
+                  "explications":"CSS files are concatenated in a single file (Not for HTTP/2).",
+                  "priority": "high"
+                },
+                {
+                  "title": "Minification",
+                  "explications":"All CSS files are minified.",
+                  "priority": "high"
+                },
+                {
+                  "title": "Non-blocking",
+                  "explications":"CSS files need to be non-blocking to prevent the DOM from taking time to load.",
+                  "links": [
+                    {"path":"https://github.com/filamentgroup/loadCSS",
+                      "text":"loadCSS by filament group",
+                      "type": "link"},
+                    {"path":"https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf",
+                      "text":"Example of preload CSS using loadCSS",
+                      "type": "link"}
+                  ],
+                  "priority": "medium"
+                },
+                {
+                  "title": "Unused CSS",
+                  "explications":"Remove unused CSS.",
+                  "links": [
+                    {"path":"https://uncss-online.com/",
+                      "text":"UnCSS Online",
+                      "type": "link"},
+                    {"path":"https://github.com/purifycss/purifycss",
+                      "text":"PurifyCSS",
+                      "type": "link"},
+                    {"path":"https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage",
+                      "text":"Chrome DevTools Coverage",
+                      "type": "link"},
+                    {"path":"https://github.com/FullHuman/purgecss",
+                      "text":"PurgeCSS",
+                      "type": "link"}
+                  ],
+                  "priority": "low"
+                }
+          ]
+        },
+            {
+              "title": "CSS testing",
+              "tasks": [
+                {
+                  "title": "Stylelint",
+                  "explications":"All CSS or SCSS files are without any errors.",
+                  "links": [
+                    {"path":"https://stylelint.io/",
+                      "text":"stylelint, a CSS linter",
+                      "type": "tools"},
+                    {"path":"https://sass-guidelin.es/",
+                      "text":"Sass guidelines",
+                      "type": "link"}
+                  ],
+                  "priority": "high"
+                },
+                {
+                  "title": "Responsive web design",
+                  "explications":"All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).",
+                  "priority": "high"
+                },
+                {
+                  "title": "CSS Validator",
+                  "explications":"The CSS was tested and pertinent errors were corrected.",
+                  "links": [
+                    {"path":"https://jigsaw.w3.org/css-validator/",
+                      "text":"CSS Validator",
+                      "type": "tools"}
+                  ],
+                  "priority": "medium"
+                },
+                {
+                  "title": "Desktop Browsers",
+                  "explications":"All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).",
+                  "priority": "high"
+                },
+                {
+                  "title": "Mobile Browsers",
+                  "explications":"All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).",
+                  "priority": "high"
+                },
+                {
+                  "title": "OS",
+                  "explications":"All pages were tested on all current OS (Windows, Android, iOS, Mac...).",
+                  "priority": "high"
+                },
+                {
+                  "title": "Reading direction",
+                  "explications":"All pages need to be tested for LTR and RTL languages if they need to be supported.",
+                  "links": [
+                    {"path":"https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/",
+                      "text":"Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks",
+                      "type": "link"},
+                    {"path":"https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/",
+                      "text":"Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks",
+                      "type": "link"}
+                  ],
+                  "priority": "high"
+                }
+              ]
+            }
+        ]
+    },
+    {
+      "title_group": "Images",
+      "categories": [
+        {
+          "title": "Best practices",
+          "tasks": [
+            {
+              "title": "Optimization",
+              "explications":"All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).",
+              "priority": "high",
+              "links": [
+                {"path":"https://github.com/imagemin/imagemin",
+                  "text":"Imagemin",
+                  "type": "tools"}
+              ]
+            },
+            {
+              "title": "Picture/Srcset",
+              "explications":"You use picture/srcset to provide the most appropriate image for the current viewport of the user.",
+              "priority": "medium",
+              "links": [
+                {"path":"https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/",
+                  "text":"How to Build Responsive Images with srcset",
+                  "type": "link"}
+              ]
+            },
+            {
+              "title": "Retina",
+              "explications":"You provide layout images 2x or 3x, support retina display.",
+              "priority": "low"
+            },
+            {
+              "title": "Sprite",
+              "explications":"Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).",
+              "priority": "medium"
+            },
+            {
+              "title": "Width and Height:",
+              "explications":"Set width and height attributes on <img> if the final rendered image size is known (can be omitted for CSS sizing).",
+              "priority": "high"
+            },
+            {
+              "title": "Alternative text",
+              "explications":"All <img> have an alternative text which describe the image visually.",
+              "links": [
+                {"path":"https://axesslab.com/alt-texts/",
+                  "text":"Alt-texts: The Ultimate Guide",
+                  "type": "link"}
+              ],
+              "priority": "high"
+            },
+            {
+              "title": "Lazy loading",
+              "explications":"Images are lazyloaded (A noscript fallback is always provided).",
+              "priority": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "JavaScript",
+      "categories": [
+        {
+          "title": "Best practices",
+          "tasks": [
+            {
+              "title": "JavaScript Inline",
+              "explications":"You don't have any JavaScript code inline (mixed with your HTML code).",
+              "priority": "high"
+            },
+            {
+              "title": "Concatenation",
+              "explications":"JavaScript files are concatenated.",
+              "priority": "high"
+            },
+            {
+              "title": "Minification",
+              "explications":"JavaScript files are minified (you can add the .min suffix).",
+              "priority": "high"
+            },
+            {
+              "title": "JavaScript security",
+              "explications":"",
+              "priority": "high",
+              "links": [
+                {"path":"https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript",
+                  "text":"Guidelines for Developing Secure Applications Utilizing JavaScript",
+                  "type": "link"}
+              ]
+            },
+            {
+              "title": "noscript tag",
+              "explications":"Use <noscript> tag in the HTML body if a script type on the page is unsupported or if scripting is currently turned off in the browser. This will be helpful in client-side rendering heavy apps such as React.js, see examples.",
+              "priority": "medium",
+              "code":"<noscript>\nYou need to enable JavaScript to run this app.\n</noscript>"
+            },
+            {
+              "title": "Non-blocking",
+              "explications":"JavaScript files are loaded asynchronously using async or deferred using defer attribute.",
+              "priority": "medium",
+              "links": [
+                {"path":"https://developers.google.com/speed/docs/insights/BlockingJS",
+                  "text":"Remove Render-Blocking JavaScript",
+                  "type": "link"}
+              ]
+            },
+            {
+              "title": "Optimized and updated JS libraries",
+              "explications":"All JavaScript libraries used in your project are necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.",
+              "priority": "medium",
+              "links": [
+                {"path":"http://youmightnotneedjquery.com/",
+                  "text":"You may not need jQuery",
+                  "type": "link"},
+                {"path":"https://plainjs.com/",
+                  "text":"Vanilla JavaScript for building powerful web applications",
+                  "type": "link"}
+              ]
+            },
+            {
+              "title": "Modernizr",
+              "explications":"If you need to target some specific features you can use a custom Modernizr to add classes in your <html> tag.",
+              "links": [
+                {"path":"https://modernizr.com/download?setclasses",
+                  "text":"Customize your Modernizr",
+                  "type": "tools"}
+              ],
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript testing",
+          "tasks": [
+            {
+              "title": "ESLint",
+              "explications":"No errors are flagged by ESLint (based on your configuration or standards rules).",
+              "priority": "high",
+              "links": [
+                {"path":"https://eslint.org/",
+                  "text":"ESLint - The pluggable linting utility for JavaScript and JSX",
+                  "type": "link"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Performance",
+      "categories": [
+        {
+          "title": "Best practices",
+          "tasks": [
+            {
+              "title": "Goals to achieve",
+              "explications":"Your pages should reach these goals:\nFirst Meaningful Paint under 1 second\nTime To Interactive under 5 seconds for the \"average\" configuration (a $200 Android on a slow 3G network with 400ms RTT and 400kbps transfer speed) and under 2 seconds for repeat visits\nCritical file size under 170Kb gzipped",
+              "priority": "medium",
+              "links": [
+                {"path":"https://tools.pingdom.com/",
+                  "text":"Website Page Analysis",
+                  "type": "tools"},
+                {"path":"https://www.webpagetest.org/",
+                  "text":"WebPageTest",
+                  "type": "tools"},
+                {"path":"https://evilmartians.com/chronicles/size-limit-make-the-web-lighter",
+                  "text":"Size Limit: Make the Web lighter",
+                  "type": "link"}
+              ]
+            },
+            {
+              "title": "Minified HTML",
+              "explications":"Your HTML is minified.",
+              "priority": "medium"
+            },
+            {
+              "title": "Lazy loading",
+              "explications":"Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).",
+              "priority": "medium"
+            },
+            {
+              "title": " Cookie size",
+              "explications":"If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.",
+              "priority": "medium",
+              "links": [
+                {"path":"https://tools.ietf.org/html/rfc6265",
+                  "text":"Cookie specification: RFC 6265",
+                  "type": "link"},
+                {"path":"https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies",
+                  "text":"Cookies",
+                  "type": "link"},
+                {"path":"http://browsercookielimits.squawky.net/",
+                  "text":"Browser Cookie Limits",
+                  "type": "tools"}
+              ]
+            },
+            {
+              "title": "Third party components",
+              "explications":"Third party iframes or components relying on external JS (like sharing buttons) are replaced by static components when possible, thus limiting calls to external APIs and keeping your users activity private.",
+              "priority": "medium",
+              "links": [
+                {"path":"https://simplesharingbuttons.com/",
+                  "text":"Simple sharing buttons generator",
+                  "type": "tools"}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Preparing upcoming requests",
+          "tasks": [
+            {
+              "title": "DNS resolution",
+              "explications":" DNS of third-party services that may be needed are resolved in advance during idle time using dns-prefetch.",
+              "priority": "low",
+              "code": "<link rel=\"dns-prefetch\" href=\"https://example.com\">"
+            },
+            {
+              "title": "Preconnection",
+              "explications":"DNS lookup, TCP handshake and TLS negotiation with services that will be needed soon is done in advance during idle time using preconnect.",
+              "priority": "low",
+              "code":"<link rel=\"preconnect\" href=\"https://example.com\">"
+            },
+            {
+              "title": "Prefetching",
+              "explications":"Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using prefetch.",
+              "priority": "low",
+              "code": "<link rel=\"prefetch\" href=\"image.png\">"
+            },
+            {
+              "title": "Preloading",
+              "explications":"Resources needed in the current page (e.g. scripts placed at the end of <body>) in advance using preload.",
+              "priority": "low",
+              "links": [
+                {"path":"https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf",
+                  "text":"Difference between prefetch and preload",
+                  "type": "link"}
+              ],
+              "code":"<link rel=\"preload\" href=\"app.js\">"
+            }
+          ]
+        },
+        {
+          "title": "Performance testing",
+          "tasks": [
+            {
+              "title": "Google PageSpeed",
+              "explications":"All your pages were tested (not only the homepage) and have a score of at least 90/100.",
+              "priority": "high",
+              "links": [
+                {"path":"https://developers.google.com/speed/pagespeed/insights/",
+                  "text":"Google PageSpeed",
+                  "type": "tools"},
+                {"path":"https://testmysite.withgoogle.com/",
+                  "text":"Test your mobile speed with Google",
+                  "type": "tools"},
+                {"path":"https://www.webpagetest.org/",
+                  "text":"WebPagetest - Website Performance and Optimization Test",
+                  "type": "tools"},
+                {"path":"https://gtmetrix.com/",
+                  "text":"GTmetrix - Website speed and performance optimization",
+                  "type": "tools"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
+
+
+/*
+{
+  "title": "JavaScript",
+  "explications":"eeeeeeeeeeeeeee",
+  "priority": "high",
+  "links": [
+    {"path":"eeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "text":"eeeeeeeeeeeeeeeeee",
+      "type": "link"}
+  ]
+}*/

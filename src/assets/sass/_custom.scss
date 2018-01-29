@@ -1,0 +1,181 @@
+
+
+$white: #fff;
+$blue: #324D5C;
+$green: #46B29D;
+$yellow: #F0CA4D;
+$orange: #E37B40;
+$red: #F53855;
+$grey: #c0c5ce;
+$navbar-size: 50px;
+$navbar-bg-color: $blue;
+$navbar-typo-color: $white;
+$navbar-link-hover: $green;
+$navbar-link-margin: 2rem;
+$navbar-brand-font-size: 2.8rem;
+
+$header-bg-color: $grey;
+$header-bg-input: rgba(255,255,255,0.2);
+
+$footer-bg-color: $grey;
+$footer-size: 60px;
+body,html,main {
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  line-height: 1.15;
+}
+
+#app{
+  margin-top: -$navbar-size;
+  padding-top: $navbar-size;
+  min-height: 100%;
+  padding-bottom: 2*$footer-size;
+}
+
+
+nav{
+  height: $navbar-size;
+  background-color: $navbar-bg-color;
+  /*** GITHUb button **/
+  iframe{
+    margin-top: ($navbar-size - 28)/2;
+    margin-right: $navbar-link-margin;
+  }
+
+  a.navbar-link,a.brand{
+    color: $navbar-typo-color;
+    line-height: $navbar-size;
+  }
+  a.brand{
+    font-size: $navbar-brand-font-size;
+    text-transform: uppercase;
+  }
+  a.navbar-link{
+    margin-right: $navbar-link-margin;
+    transition: all 0.3s ease;
+  }
+  a.navbar-link:hover{
+      color: $navbar-link-hover;
+  }
+  i.fa{
+    vertical-align: middle;
+  }
+}
+
+header{
+  background-color: $header-bg-color;
+  h3.checklist-name{
+    text-align: center;
+    padding: 1rem;
+  }
+  input{
+    background-color: $header-bg-input !important;
+  }
+  a.button{
+    margin-right: 1rem;
+    i.fa{
+      margin-right: 10px;
+    }
+  }
+  .status{
+    i.fa{
+      margin-right: 10px;
+    }
+    i.high{
+      color: $red;
+    }
+    i.medium{
+      color: $orange;
+    }
+    i.low{
+      color: $green;
+    }
+  }
+}
+
+.categories{
+  width: 90%;
+  margin: auto;
+  h1{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    &.group-title{
+      font-weight: bold;
+      border-bottom: solid 1px $grey;
+      & a.go-top{
+        font-size: 2rem;
+        text-transform: none;
+        vertical-align: middle;
+        transition: all 0.2s ease;
+        &:hover{
+          color: $orange;
+        }
+      }
+    }
+
+  }
+  .task{
+    p,i.fa{
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+    }
+    i.fa{
+      color: $yellow;
+      margin: 0 0.5rem 0 0.5rem;
+    }
+    i.checked{
+      color: $green;
+      text-decoration: none;
+      &.high{
+        color: $red;
+      }
+      &.medium{
+        color: $orange;
+      }
+      &.low{
+        color: $green;
+      }
+    }
+    i.not-checked{
+      color: $grey;
+      opacity: 0.3;
+      &.high{
+        color: $red;
+      }
+      &.medium{
+        color: $orange;
+      }
+      &.low{
+        color: $green;
+      }
+    }
+    span.checked{
+      text-decoration: line-through;
+    }
+  }
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: $footer-size;
+  margin-top: -$footer-size;
+  text-align: center;
+  background-color: $grey;
+  p{
+    margin: 0;
+    height: $footer-size;
+    line-height: $footer-size;
+    color: $blue;
+  }
+  .heart{
+    color: $red;
+  }
+
+}
+
+.for-print{
+  display: none !important;
+}

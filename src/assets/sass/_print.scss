@@ -1,0 +1,40 @@
+@media only print
+{
+  .for-print{
+    display: block !important;
+  }
+  nav,
+  .details,
+  .toolbar{
+    display: none !important;
+  }
+  .no-print{
+    display: none !important;
+  }
+  .categories{
+    width: 100% !important;
+    margin: 0;
+    h1{
+      font-size: 2rem;
+    }
+
+  }
+  .container{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .task{
+    .task-details{
+      display: none !important;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+    p span.checked{
+      text-decoration: none !important;
+    }
+    i.fa-angle-down, i.fa-angle-left{
+      display: none !important;
+    }
+  }
+}
