@@ -16,6 +16,9 @@
     margin: 0;
     h1{
       font-size: 2rem;
+      a.go-top{
+        display: none !important;
+      }
     }
 
   }

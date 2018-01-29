@@ -12,6 +12,12 @@
 
 ### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
 
+[![npm](https://img.shields.io/npm/dw/localeval.svg)](https://www.npmjs.com/package/checklist-tools-website)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
+[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/AlexisDanizan/Checklist-Tools-Website)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
+
   
 **All the power of checklists, without the overhead:**
  - User-friendly and fluid interface
@@ -23,7 +29,7 @@
 
 ## Getting Started
 
-###Installation
+### Installation
 
 To install the stable version:
 ```bash
