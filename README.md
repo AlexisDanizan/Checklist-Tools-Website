@@ -10,8 +10,6 @@
 </p>
 
 
-### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
-
 [![GitHub license](https://img.shields.io/github/license/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/blob/master/LICENSE)
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 [![GitHub issues](https://img.shields.io/github/issues/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/issues)
@@ -27,6 +25,10 @@
 
 Based on checklists:
  - [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+
+
+### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
+
 
 ## Installation
 
