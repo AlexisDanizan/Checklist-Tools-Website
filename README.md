@@ -12,13 +12,11 @@
 
 ### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
 
-[![npm](https://img.shields.io/npm/dw/localeval.svg)](https://www.npmjs.com/package/checklist-tools-website)
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)]()
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/AlexisDanizan/Checklist-Tools-Website)
-[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
+[![GitHub license](https://img.shields.io/github/license/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/stargazers)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/AlexisDanizan/Checklist-Tools-Website.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAlexisDanizan%2FChecklist-Tools-Website)
 
-  
 **All the power of checklists, without the overhead:**
  - User-friendly and fluid interface
  - Fast build with Preact and Milligram
