@@ -13,51 +13,65 @@
 ### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
 
 [![GitHub license](https://img.shields.io/github/license/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/blob/master/LICENSE)
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 [![GitHub issues](https://img.shields.io/github/issues/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AlexisDanizan/Checklist-Tools-Website.svg)](https://github.com/AlexisDanizan/Checklist-Tools-Website/stargazers)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/AlexisDanizan/Checklist-Tools-Website.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAlexisDanizan%2FChecklist-Tools-Website)
 
 **All the power of checklists, without the overhead:**
  - User-friendly and fluid interface
- - Fast build with Preact and Milligram
+ - Fast build with [Preact]() and [Milligram](https://github.com/milligram/milligram)
  - Generate PDF report
  - Offline checklists storage with LocalStorage
  - 💥 **Instant no-config app bundling**
 
+Based on checklists:
+ - [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
-## Getting Started
+## Installation
 
-### Installation
-
-To install the stable version:
+**Install with npm**
 ```bash
 npm i checklist-tools-website
 ```
 
-Or
+**Install with Yarn**
+```bash
+yarn add checklist-tools-website
+```
+
+**Install manually**
+
 ```bash
 git clone https://github.com/AlexisDanizan/Checklist-Tools-Website.git
 yarn install
+# or
+npm install
 ```
 
-### How to use ?
-Build the final the version with Gulp:
+## How to use ?
+
+**Build with [Gulp](https://github.com/gulpjs/gulp)**
 ```bash
 gulp build
 ```
 Built files are available in `dist` folder.
 
-### Customize
+## Customize
 
-Build and serve files with Gulp:
+**Build and serve files with [Gulp](https://github.com/gulpjs/gulp)**
 ```bash
 gulp build
 gulp webserver
 ```
-#### Add a new Checklist
+
+The version is available at [http://localhost:8080](http://localhost:8080)
+
+### Add a new Checklist
+
 Create a new json files in `src/checklist`.
 
-Example template:
+Sample template:
 ```json
 {
   "name": "Front-dev",
@@ -96,24 +110,44 @@ const INITIAL_DATA = {
   checklists: [
     example
   ],
-  done: {
-    high:{
-      count: 0,
-      total: 0
-    },
-    medium:{
-      count: 0,
-      total: 0
-    },
-    low: {
-      count: 0,
-      total: 0
-    }
-  },
-  selected: 0,
-  projet_name: "",
-  team:""
+  ...
 };
 ```
+
 ## Troubleshooting
+
+The new checklist does not appear in select:
  - Empty the localstorage before add a new checklist.
+ 
+## Contributing
+
+**Open an issue or a pull request to suggest changes or additions.**
+
+### Guide
+
+The **Checklist Tools Website** repository consists of two branches:
+
+#### 1. `master`
+
+This branch consists of the current stable branchof [Checklist Tools Website](https://github.com/AlexisDanizan/Checklist-Tools-Website).
+
+#### 2. `develop`
+
+This branch will be used to make some significant changes to the structure, content if needed. It is preferable to use the master branch to fix small errors or add a new checklist.
+
+## Support
+
+If you have any question or suggestion, don't hesitate to use Twitter:
+* [Twitter](https://twitter.com/alexisdanizan)
+
+## Author
+
+**[Alexis Danizan](https://github.com/AlexisDanizan)**
+
+## Contributors
+
+This project exists thanks to all the people who contribute.
+
+## License
+
+Designed and created with ♥ by Danizan Alexis. Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
