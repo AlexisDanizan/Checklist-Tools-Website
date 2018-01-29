@@ -1,7 +1,7 @@
 {
-  "name": "simple-website-starter-kit",
+  "name": "checklist-tools-website",
   "version": "0.0.1",
-  "description": "Simple single page website (SPA) starter kit ",
+  "description": "The perfect Checklist Website for meticulous developers.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
