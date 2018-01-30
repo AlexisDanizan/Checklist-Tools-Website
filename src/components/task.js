@@ -46,16 +46,25 @@ class Task extends Component{
         <p>
           <span onClick={mutation(CHECKED,task)} className={isChecked(task)}>
             <i className={isCheckedIcon(task)}></i>
+
             {task.title}&nbsp;
-          </span><span onClick={mutation(DEVELOP, task)}><i  className={isDevelopped(task)} aria-hidden="true"></i></span>
+            </span>
+            {
+              (task.explications || task.links) &&
+              <span onClick={mutation(DEVELOP, task)}><i  className={isDevelopped(task)} aria-hidden="true"></i></span>
+            }
+
         </p>
         {
           task.developped &&
           <div className="task-details">
             {
-              task.explications &&
+              (task.explications || task.code) &&
               <blockquote>
-                <p><em>{task.explications}</em></p>
+                {
+                  task.explications &&
+                  <p><em>{task.explications}</em></p>
+                }
                 {
                   task.code &&
                   <pre><code>{task.code}</code></pre>

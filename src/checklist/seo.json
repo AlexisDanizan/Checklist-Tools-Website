@@ -1,0 +1,364 @@
+{
+  "name": "Search Engine Optimization (SEO)",
+  "group_categories": [
+    {
+      "title_group": "Search Engine Optimization (SEO)",
+      "categories": [
+        {
+          "title": "URL",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " use a descriptive page url, which should reflect your targeted keyword"
+            },
+            {
+              "priority": "medium",
+              "title": ": do not strip out the file extension on URLs"
+            },
+            {
+              "priority": "medium",
+              "title": " Security is a top priority for Google"
+            },
+            {
+              "priority": "medium",
+              "title": " split words using hyphens"
+            },
+            {
+              "priority": "medium",
+              "title": " choose a country-specific domain, for better local search results"
+            },
+            {
+              "priority": "medium",
+              "title": " subdomains are seen as separate domains"
+            },
+            {
+              "priority": "medium",
+              "title": " Use this tool to add custom campaign parameters to your URLs"
+            },
+            {
+              "priority": "medium",
+              "title": " provide both domains, but set a prefered version in Google Webmaster Tools"
+            }
+          ]
+        },
+        {
+          "title": "Accessibility",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " provide a 403 - Access denied page"
+            },
+            {
+              "priority": "medium",
+              "title": " provide a 404 - Page not found page"
+            },
+            {
+              "priority": "medium",
+              "title": " with Google Sitelink search box, people can reach your content more quickly"
+            },
+            {
+              "priority": "medium",
+              "title": " avoid 404 FILE_NOT_FOUND errors"
+            },
+            {
+              "priority": "medium",
+              "title": " use divs instead of tables for layout. Using tables is not semantically correct."
+            },
+            {
+              "priority": "medium",
+              "title": " redirect all your links to the new location via .htaccess"
+            },
+            {
+              "priority": "medium",
+              "title": " implement the rel=\"next\" and rel=\"prev\" attributes to links"
+            },
+            {
+              "priority": "medium",
+              "title": " performance and loading time is important"
+            },
+            {
+              "priority": "medium",
+              "title": " avoid redirects if possible. Use 301 redirect instead of 302"
+            },
+            {
+              "priority": "medium",
+              "title": " markup your code with rich snippets, they show up on the search results page"
+            },
+            {
+              "priority": "medium",
+              "title": " block pages which should not be indexed via the robots.txt file or\n<meta name=\"robots\" content=\"\">"
+            },
+            {
+              "priority": "medium",
+              "title": " write valid code ( )",
+              "links": [
+                {
+                  "path": "https://validator.w3.org/",
+                  "text": "HTML Validator",
+                  "type": "link"
+                },
+                {
+                  "path": "https://jigsaw.w3.org/css-validator/",
+                  "text": "CSS Validator",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " use WAI-Aria tags to help machines understand your code"
+            }
+          ]
+        },
+        {
+          "title": "Meta Information",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " each page should have a unique description (max. 160 characters)\n<meta name=\"description\" content=\"\">"
+            },
+            {
+              "priority": "medium",
+              "title": " each page should have a unique speaking title (60 - 100 characters)\n<title>Website Title</title>"
+            }
+          ]
+        },
+        {
+          "title": "Keywords",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " keyword should appear in ~3% of article length"
+            },
+            {
+              "priority": "medium",
+              "title": " keyword should appear in headings"
+            },
+            {
+              "priority": "medium",
+              "title": " you can ommit the <meta name=\"keywords\" content=\"\">,\nsearch engines do not use this meta tag"
+            },
+            {
+              "priority": "medium",
+              "title": " rank for keywords with high traffic and less competition"
+            },
+            {
+              "priority": "medium",
+              "title": " every page should have a single unique targeted keyword"
+            },
+            {
+              "priority": "medium",
+              "title": " keyword should appear in page title"
+            },
+            {
+              "priority": "medium",
+              "title": " keyword should appear in URL name"
+            }
+          ]
+        },
+        {
+          "title": "Content",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " content matters the most in SEO"
+            },
+            {
+              "priority": "medium",
+              "title": " avoid Flash content and Flash pages. They are not accessible on mobile phones and will be ranked lower"
+            },
+            {
+              "priority": "medium",
+              "title": " new content is important. Updating pages or posting regularly is recommended"
+            },
+            {
+              "priority": "medium",
+              "title": " clear structure H1 - H6 max. 70 characters long"
+            },
+            {
+              "priority": "medium",
+              "title": " article should be at least 300 words"
+            },
+            {
+              "priority": "medium",
+              "title": " use strong tag to highlight your targeted keyword"
+            },
+            {
+              "priority": "medium",
+              "title": " do not provide duplicated content, use unique content types"
+            }
+          ]
+        },
+        {
+          "title": "Images",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " add an alt-tag this a description of the image (60 - 70 characters)"
+            },
+            {
+              "priority": "medium",
+              "title": " add the width=\"\" and height=\"\" attributes to the image"
+            },
+            {
+              "priority": "medium",
+              "title": " use a short descriptive name"
+            },
+            {
+              "priority": "medium",
+              "title": " Optimize images by removing some meta information"
+            },
+            {
+              "priority": "medium",
+              "title": " serve the most optimized image corresponding to the window size"
+            },
+            {
+              "priority": "medium",
+              "title": " keep the filesize as low as possible"
+            }
+          ]
+        },
+        {
+          "title": "Videos",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " add controls to playback and control your video"
+            },
+            {
+              "priority": "medium",
+              "title": " allow others to embed your videos"
+            },
+            {
+              "priority": "medium",
+              "title": " use transcriptions for indexing, usability & content"
+            },
+            {
+              "priority": "medium",
+              "title": " avoid unplayable video content. Use HTML5 <video> tag instead of Flash"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " only add external links if you got a backlink to your site"
+            },
+            {
+              "priority": "medium",
+              "title": " add ~3 internal links to your content"
+            },
+            {
+              "priority": "medium",
+              "title": " the hreflang tag tells Google which language you are using on a specific page, so the search engine can serve that result to users searching in that language\n<link rel=\"alternate\" href=\"example.com/fr/\" hreflang=\"fr-fr\" />"
+            },
+            {
+              "priority": "medium",
+              "title": " use a descriptive link name: “Click here” or “Read more” are bad link text. Better “Read more about SEO and Web Accessibility”"
+            },
+            {
+              "priority": "medium",
+              "title": " add rel=\"nofollow\" attribute to external links only to prevent spam and bad links"
+            },
+            {
+              "priority": "medium",
+              "title": " add the title attribute to links"
+            }
+          ]
+        },
+        {
+          "title": "Mobile",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " apps that link to your content can then use this metadata to deep-link into your app"
+            },
+            {
+              "priority": "medium",
+              "title": " mobile optimized sites are marked in search results. Test for ",
+              "links": [
+                {
+                  "path": "https://www.google.com/webmasters/tools/mobile-friendly/",
+                  "text": "mobile friendly site",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Safari has a Smart App Banner feature that provides a standardized method of promoting apps on the App Store from a website"
+            },
+            {
+              "priority": "medium",
+              "title": " clickable links should not be too small"
+            },
+            {
+              "priority": "medium",
+              "title": " tell browsers how to adjust the page's dimensions and scaling to suit the device\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+            }
+          ]
+        },
+        {
+          "title": "Sitemap",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " an HTML sitemap allows site visitors to easily navigate a website"
+            },
+            {
+              "priority": "medium",
+              "title": " increase that your images can be found in Image Search results"
+            },
+            {
+              "priority": "medium",
+              "title": " for feature phones, you can create a mobile sitemap"
+            },
+            {
+              "priority": "medium",
+              "title": " make sure, search engines know about all the video content on your site"
+            },
+            {
+              "priority": "medium",
+              "title": " help search engines to index your pages"
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": "Authorship information"
+            },
+            {
+              "priority": "medium",
+              "title": " sharing Best Practices for Websites & Mobile Apps"
+            },
+            {
+              "priority": "medium",
+              "title": " add Google+ authorship information to your page\n<link rel=\"author\" href=\"https://plus.google.com/u/0/[GOOGLE+ ID]\"> or\n<a href=\"https://plus.google.com/u/0/[GOOGLE+ ID]\" rel=author\">Google+ Profile</a> or\n<a href=\"https://plus.google.com/u/0/[GOOGLE+ ID]\" rel=me\">Google+ Profile</a> or\n<a href=\"https://plus.google.com/u/0/[GOOGLE+ ID]\" rel=publisher\">Google+ Profile</a>"
+            },
+            {
+              "priority": "medium",
+              "title": " the Open Graph protocol enables any web page to become a rich object in a social graph."
+            },
+            {
+              "priority": "medium",
+              "title": " add social profiles to your Google search results"
+            },
+            {
+              "priority": "medium",
+              "title": " provide sharing options for your site"
+            },
+            {
+              "priority": "medium",
+              "title": " with Twitter cards, you can attach photos, videos and media experience to you Tweets"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

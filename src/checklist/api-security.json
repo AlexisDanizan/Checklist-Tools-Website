@@ -1,0 +1,293 @@
+{
+  "name": "API Security Checklist",
+  "group_categories": [
+    {
+      "title_group": "Authentication",
+      "categories": [
+        {
+          "title": "Authentication",
+          "tasks": [
+            {
+              "priority": "high",
+              "title": "No Basic Auth",
+              "explications":"Don't use Basic Auth Use standard authentication",
+              "links": [
+                {
+                  "path": "https://jwt.io/",
+                  "text": "JWT",
+                  "type": "link"
+                },
+                {
+                  "path": "https://oauth.net/",
+                  "text": "OAuth",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "high",
+              "title": "Standards Authentication",
+              "explications":"Don't reinvent the wheel in Authentication, token generation, password storage. Use the standards."
+            },
+            {
+              "priority": "medium",
+              "title": "Max Retry",
+              "explications":"Use Max Retry and jail features in Login."
+            },
+            {
+              "priority": "high",
+              "title": "Encryption",
+              "explications":"Use encryption on all sensitive data."
+            }
+          ]
+        },
+        {
+          "title": "JSON Web Token (JWT)",
+          "tasks": [
+            {
+              "priority": "high",
+              "title": "Random complicated key",
+              "explications":"Use a random complicated key (JWT Secret) to make brute forcing the token very hard."
+            },
+            {
+              "priority": "high",
+              "title": "Don't extract the algorithm from the payload",
+              "explications":"Don't extract the algorithm from the payload. Force the algorithm in the backend (HS256 or RS256)."
+            },
+            {
+              "priority": "high",
+              "title": "Token expiration (TTL, RTTL)",
+              "explications":"Make token expiration (TTL, RTTL) as short as possible.."
+            },
+            {
+              "priority": "high",
+              "title": "No sensitive data store",
+              "explications":"Don't store sensitive data in the JWT payload, it can be decoded .",
+              "links": [
+                {
+                  "path": "https://jwt.io/#debugger-io",
+                  "text": "easily",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "OAuth",
+          "tasks": [
+            {
+              "priority": "medium",
+              "explications":"Always validate redirect_uri server-side to allow only whitelisted URLs.",
+              "title": "Always validate redirect_uri"
+            },
+            {
+              "priority": "medium",
+              "explications":"Always try to exchange for code and not tokens (don't allow response_type=token).",
+              "title": "No exchange tokens"
+            },
+            {
+              "priority": "high",
+              "explications":"Use state parameter with a random hash to prevent CSRF on the OAuth authentication process.",
+              "title": "State parameter with a random hash"
+            },
+            {
+              "priority": "medium",
+              "explications":"Define the default scope, and validate scope parameters for each application.",
+              "title": "Define the default and validate scope"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Access",
+      "categories": [
+        {
+          "title": "Access",
+          "tasks": [
+            {
+              "priority": "high",
+              "explications": "Limit requests (Throttling) to avoid DDoS / brute-force attacks.",
+              "title":"Limit requests (Throttling)"
+            },
+            {
+              "priority": "high",
+              "explications": "Use HTTPS on server side to avoid MITM (Man In The Middle Attack).",
+              "title":"Use HTTPS"
+            },
+            {
+              "priority": "medium",
+              "explications": "Use HSTS header with SSL to avoid SSL Strip attack.",
+              "title":"Use HSTS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Input",
+      "categories": [
+        {
+          "title": "Input",
+          "tasks": [
+            {
+              "priority": "high",
+              "explications": "Use the proper HTTP method according to the operation: GET (read), POST (create), PUT/PATCH (replace/update), and DELETE (to delete a record), and respond with 405 Method Not Allowed if the requested method isn't appropriate for the requested resource.",
+              "title":"Use the proper HTTP method"
+            },
+            {
+              "priority": "high",
+              "explications": "Validate content-type on request Accept header (Content Negotiation) to allow only your supported format (e.g. application/xml, application/json, etc) and respond with 406 Not Acceptable response if not matched.",
+              "title":"Validate content-type on request"
+            },
+            {
+              "priority": "medium",
+              "explications": "Validate content-type of posted data as you accept (e.g. application/x-www-form-urlencoded, multipart/form-data, application/json, etc).",
+              "title":"Validate content-type of posted data"
+            },
+            {
+              "priority": "high",
+              "explications": "Validate User input to avoid common vulnerabilities (e.g. XSS, SQL-Injection, Remote Code Execution, etc).",
+              "title":"Validate User input"
+            },
+            {
+              "priority": "high",
+              "explications": "Don't use any sensitive data (credentials, Passwords, security tokens, or API keys) in the URL, but use standard Authorization header.",
+              "title":"Don't use any sensitive data"
+            },
+            {
+              "priority": "medium",
+              "explications": "Use an API Gateway service to enable caching, Rate Limit policies (e.g. Quota, Spike Arrest, Concurrent Rate Limit) and deploy APIs resources dynamically.",
+              "title":"Use an API Gateway service to enable caching"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Processing",
+      "categories": [
+        {
+          "title": "Processing",
+          "tasks": [
+            {
+              "priority": "high",
+              "explications": "Check if all the endpoints are protected behind authentication to avoid broken authentication process.",
+              "title":"All the endpoints are protected behind auth"
+            },
+            {
+              "priority": "high",
+              "explications": "User own resource ID should be avoided. Use /me/orders instead of /user/654321/orders.",
+              "title":"Avoid user own resource ID"
+            },
+            {
+              "priority": "high",
+              "explications": "Don't auto-increment IDs. Use UUID instead.",
+              "title":"No auto-increment IDs"
+            },
+            {
+              "priority": "medium",
+              "explications": "If you are parsing XML files, make sure entity parsing is not enabled to avoid XXE (XML external entity attack).",
+              "title":"No XML entity parsing"
+            },
+            {
+              "priority": "medium",
+              "explications": "If you are parsing XML files, make sure entity expansion is not enabled to avoid Billion Laughs/XML bomb via exponential entity expansion attack.",
+              "title":"No XML entity expansion"
+            },
+            {
+              "priority": "medium",
+              "title": "Use a CDN for file uploads."
+            },
+            {
+              "priority": "medium",
+              "explications": "If you are dealing with huge amount of data, use Workers and Queues to process as much as possible in background and return response fast to avoid HTTP Blocking.",
+              "title":"Use Workers and Queues"
+            },
+            {
+              "priority": "high",
+              "explications": "Do not forget to turn the DEBUG mode OFF.",
+              "title":"DEBUG mode OFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Output",
+      "categories": [
+        {
+          "title": "Output",
+          "tasks": [
+            {
+              "priority": "high",
+              "explications": "Send X-Content-Type-Options: nosniff header.",
+              "title":"X-Content-Type-Options"
+            },
+            {
+              "priority": "high",
+              "explications": "Send X-Frame-Options: deny header.",
+              "title":"X-Frame-Options"
+            },
+            {
+              "priority": "high",
+              "explications": "Send Content-Security-Policy: default-src 'none' header.",
+              "title":"Content-Security-Policy"
+            },
+            {
+              "priority": "high",
+              "explications": "Remove fingerprinting headers - X-Powered-By, Server, X-AspNet-Version etc.",
+              "title":"Remove fingerprinting headers"
+            },
+            {
+              "priority": "medium",
+              "explications": "Force content-type for your response, if you return application/json then your response content-type is application/json.",
+              "title":"Force content-type for response"
+            },
+            {
+              "priority": "high",
+              "explications": "Don't return sensitive data like credentials, Passwords, security tokens.",
+              "title":"Don't return sensitive data"
+            },
+            {
+              "priority": "high",
+              "explications": "Return the proper status code according to the operation completed. (e.g. 200 OK, 400 Bad Request, 401 Unauthorized, 405 Method Not Allowed, etc).",
+              "title":"Return the proper status code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "CI & CD",
+      "categories": [
+        {
+          "title": "CI & CD",
+          "tasks": [
+            {
+              "priority": "medium",
+              "explications": "Audit your design and implementation with unit/integration tests coverage.",
+              "title":"Audit your design and implementation"
+            },
+            {
+              "priority": "medium",
+              "explications": "Use a code review process and disregard self-approval.",
+              "title":"Use a code review process"
+            },
+            {
+              "priority": "medium",
+              "explications": "Ensure that all components of your services are statically scanned by AV software before push to production, including vendor libraries and other dependencies.",
+              "title":"Services are statically scanned by AV software"
+            },
+            {
+              "priority": "medium",
+              "explications": "Design a rollback solution for deployments.",
+              "title":"Design a rollback solution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

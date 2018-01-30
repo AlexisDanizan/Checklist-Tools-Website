@@ -21,11 +21,14 @@
  - Fast build with [Preact]() and [Milligram](https://github.com/milligram/milligram)
  - Generate PDF report
  - Offline checklists storage with LocalStorage
+ - Auto-save your progress 🚀
  - 💥 **Instant no-config app bundling**
 
 Based on checklists:
- - [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
-
+ - [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+ - [Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization)
+ - [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist)
+ - [The Side Project Marketing Checklist](https://github.com/karllhughes/side-project-marketing)
 
 ### Use the online version: [alexisdanizan.github.io](https://alexisdanizan.github.io)
 
@@ -71,8 +74,15 @@ The version is available at [http://localhost:8080](http://localhost:8080)
 
 ### Add a new Checklist
 
-Create a new json files in `src/checklist`.
+#### Use the auto-converter
 
+To convert a checklist to markdown format you can use the `bin/mdChecklistToJson.js` script.
+To do this, add your checklist in `sample.md` and run the command **`npm mdtojson`**.  
+The result of the conversion is in **`bin/sample.json`**. Modify your checklist until you get the result.
+
+#### Add manually
+
+Create a new json files in `src/checklist`.
 Sample template:
 ```json
 {

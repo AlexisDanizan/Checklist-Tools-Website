@@ -32,10 +32,16 @@ const PATH = {
 
 process.env.NODE_ENV = 'production';
 
+/**
+ * Clean dist folder
+ */
 gulp.task('clean', () => {
   return gulp.src(PATH.DIST, {read: false}).pipe(clean());
 });
 
+/**
+ * Compile html and minify
+ */
 gulp.task('html', ['clean'], () => {
   gulp.src(PATH.TEMPLATES)
     .pipe(nunjucks.compile(data))
@@ -43,10 +49,16 @@ gulp.task('html', ['clean'], () => {
     .pipe(gulp.dest(PATH.DIST));
 });
 
+/**
+ * Copy fonts files
+ */
 gulp.task('fonts', ['clean'], () => {
   return gulp.src(PATH.FONTS).pipe(gulp.dest(PATH.DIST + '/fonts'));
 });
 
+/**
+ * Copy and reduce image size
+ */
 gulp.task('images', ['clean'], () => {
     gulp.src(PATH.IMG)
       .pipe(imagemin([
@@ -57,6 +69,9 @@ gulp.task('images', ['clean'], () => {
       .pipe(gulp.dest( PATH.DIST + '/img'));
 });
 
+/**
+ * Compile and minify js
+ */
 gulp.task('js',['html'], () => {
   return browserify({ debug: (process.env.NODE_ENV === 'production') })
     .transform(babel)
@@ -69,6 +84,9 @@ gulp.task('js',['html'], () => {
     .pipe(gulp.dest(PATH.DIST + "/js"));
 });
 
+/**
+ * Compile sass and remove unused rules
+ */
 gulp.task('sass',['js', 'html'], () =>
   gulp.src(PATH.SASS)
     .pipe(sass().on('error', sass.logError))
@@ -85,6 +103,9 @@ gulp.task('sass',['js', 'html'], () =>
     .pipe(gulp.dest(PATH.SASS_DIST ))
 );
 
+/**
+ * Add cross-browser rules, and minify css
+ */
 gulp.task('postcss',['sass','js'], () =>
   gulp.src(PATH.CSS)
     .pipe(concat('main.css'))
@@ -94,23 +115,15 @@ gulp.task('postcss',['sass','js'], () =>
     .pipe(gulp.dest(PATH.DIST + "/css"))
 );
 
-/***************** DEV *******************************
- *====================================================*/
-gulp.task('images-dev', () => {
-  gulp.src(PATH.IMG).pipe(gulp.dest( PATH.DIST + '/img'));
-});
 
-gulp.task('js-dev',['html'], () => {
-  return browserify({ debug: true })
-    .transform(babel.configure({comments: false}))
-    .require(PATH.JS, { entry: true })
-    .bundle()
-    .on("error", function (err) { console.log("Error: " + err.message); })
-    .pipe(source('bundle.js'))
-    .pipe(buffer())
-    .pipe(gulp.dest(PATH.DIST + "/js"));
+gulp.task('webserver', function() {
+  gulp.src(PATH.DIST)
+    .pipe(webserver({
+      livereload: true,
+      open: true,
+      port: 8080,
+    }));
 });
-
 
 gulp.task('build', [
   'clean',
@@ -122,22 +135,3 @@ gulp.task('build', [
   'postcss',
 ]);
 
-// Server tasks with watch
-gulp.task('dev', [
-  'clean',
-  'html',
-  'fonts',
-  'js-dev',
-  'images-dev',
-  'sass',
-  'postcss'
-]);
-
-gulp.task('webserver', function() {
-  gulp.src(PATH.DIST)
-    .pipe(webserver({
-      livereload: true,
-      open: true,
-      port: 8080,
-    }));
-});

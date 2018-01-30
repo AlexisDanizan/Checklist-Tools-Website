@@ -5,9 +5,18 @@ import { Component } from 'preact';
 import {initialState} from './stores/checklistStore';
 import Header from './components/header';
 import GroupCategories from './components/groupCategories';
+import {SAVE} from "./reducers/checklist";
 
 
 class App extends Component{
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      this.context.mutate(SAVE);
+    }, 15000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
   render({checklists,done,selected,team,project_name},state,ctx){
     return (
       <div>

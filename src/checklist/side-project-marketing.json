@@ -1,0 +1,742 @@
+{
+  "name": "Side Project Marketing Checklist",
+  "group_categories": [
+    {
+      "title_group": "Pre-Launch",
+      "categories": [
+        {
+          "title": "Competitor Research",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Make a list of competitors (see ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/competition-tools/",
+                  "text": "this list of tools to research competitors",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Subscribe to RSS feeds of your competitors' blogs."
+            },
+            {
+              "priority": "medium",
+              "title": " Follow your competitors and their key employees on social media."
+            },
+            {
+              "priority": "medium",
+              "title": " Monitor competitors' websites for changes.",
+              "links": [
+                {
+                  "path": "http://sitealerts.com/",
+                  "text": "Site Alerts",
+                  "type": "link"
+                },
+                {
+                  "path": "https://versionista.com/",
+                  "text": "Versionista",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Subscribe to industry newsletters, magazines, trade journals etc."
+            },
+            {
+              "priority": "medium",
+              "title": " Use  to do initial demand and search volume research ().",
+              "links": [
+                {
+                  "path": "https://trends.google.com/trends/",
+                  "text": "Google Trends",
+                  "type": "link"
+                },
+                {
+                  "path": "http://smallbusinessbc.ca/article/how-use-google-trends-perform-market-research/",
+                  "text": "check out this article for specific tips",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Customer Research",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Find people in your contact list who might be future customers. Get their feedback on your idea."
+            },
+            {
+              "priority": "medium",
+              "title": " Attend meetups or conferences for your target market."
+            },
+            {
+              "priority": "medium",
+              "title": " Meet another entrepreneur who has a similar or competitive product."
+            },
+            {
+              "priority": "medium",
+              "title": " Make a list of your competitors' customers."
+            },
+            {
+              "priority": "medium",
+              "title": " Reach out to your competitors' customers, find out what they like/don't like."
+            },
+            {
+              "priority": "medium",
+              "title": " Create an \"early access\" list for potential future customers."
+            }
+          ]
+        },
+        {
+          "title": "Public Relations Preparations",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Create list of tech, startup, and industry blogs."
+            },
+            {
+              "priority": "medium",
+              "title": " Create list of local small business journals (eg: ).",
+              "links": [
+                {
+                  "path": "http://www.chicagobusiness.com/section/Contact-Us&template=mobile",
+                  "text": "Crain's Chicago",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Create list of local bloggers and journalists in your industry."
+            },
+            {
+              "priority": "medium",
+              "title": " Create a \"Media Kit\" page ().",
+              "links": [
+                {
+                  "path": "https://www.kickresume.com/mediakit/",
+                  "text": "check out this example",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Website Setup",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Come up with a name and domain name."
+            },
+            {
+              "priority": "medium",
+              "title": " Write a site tagline and elevator pitch."
+            },
+            {
+              "priority": "medium",
+              "title": " Create a logo (see ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/logos/",
+                  "text": "this list of logo creation tools",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Set up a landing page (see ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/landing-page-tools/",
+                  "text": "this list of landing page tools",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Create \"About\" and \"Contact\" pages."
+            },
+            {
+              "priority": "medium",
+              "title": " Create Pricing page (see )",
+              "links": [
+                {
+                  "path": "https://taprun.com/methods/",
+                  "text": "this list of pricing models",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Add social media follow links to landing page."
+            },
+            {
+              "priority": "medium",
+              "title": " Set up analytics to learn about who signs up, bounces, etc."
+            },
+            {
+              "priority": "medium",
+              "title": " Set up on-site messaging to capture leads and engage customers as they land on your site (see our ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/customer-chat-tools",
+                  "text": "list of live customer chat tools",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Email Setup",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Set up email address to send and receive emails."
+            },
+            {
+              "priority": "medium",
+              "title": " Set up email list and signup form."
+            },
+            {
+              "priority": "medium",
+              "title": " Create a standard email template for your brand."
+            },
+            {
+              "priority": "medium",
+              "title": " Create transactional emails for when users sign up/purchase."
+            }
+          ]
+        },
+        {
+          "title": "Blog Setup",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Choose a blogging platform (see this list of ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/blogging-platforms",
+                  "text": "blogging platforms for your side project",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Research keywords that you'd like your site/blog to rank for."
+            },
+            {
+              "priority": "medium",
+              "title": " Create anchor posts or pages for keywords you'd like to rank for."
+            },
+            {
+              "priority": "medium",
+              "title": " Have a blog post brainstorming session (see this ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/blog-post-ideas",
+                  "text": "big list of blog post ideas",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Add email signup form or link to all blog posts."
+            },
+            {
+              "priority": "medium",
+              "title": " Add social media follow links to all blog posts."
+            }
+          ]
+        },
+        {
+          "title": "Social Media Setup",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Search for availability of names on social networks using .",
+              "links": [
+                {
+                  "path": "http://shareasale.com/r.cfm?b=170332&u=1653894&m=21886&urllink=&afftrack=",
+                  "text": "KnowEm",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Choose the social media accounts you'll use."
+            },
+            {
+              "priority": "medium",
+              "title": " Standardize profile image, background photo, links and call to action across social channels."
+            },
+            {
+              "priority": "medium",
+              "title": " Put premium content behind \"\".",
+              "links": [
+                {
+                  "path": "https://www.paywithatweet.com/",
+                  "text": "pay with a tweet",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Post-Launch",
+      "categories": [
+        {
+          "title": "Free Promotional Channels",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Post your product on directories and review sites (Matt McCaffrey has compiled  or you can use a service like ).",
+              "links": [
+                {
+                  "path": "https://github.com/mmccaff/PlacesToPostYourStartup",
+                  "text": "a great list on Github",
+                  "type": "link"
+                },
+                {
+                  "path": "https://www.instaaa.com/",
+                  "text": "Instaaa",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Write and distribute a Press Release (here's a , or you can ).",
+              "links": [
+                {
+                  "path": "http://www.wajeez.com/writing-quick-press-releases/",
+                  "text": "comprehensive guide from Wajeez",
+                  "type": "link"
+                },
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/press-release-tools/",
+                  "text": "use one of these distribution tools",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Write and distribute an eBook, exchange it for email signup."
+            },
+            {
+              "priority": "medium",
+              "title": " Write and distribute a white paper, exchange it for email signup."
+            },
+            {
+              "priority": "medium",
+              "title": " Give free access to influential bloggers in the industry."
+            },
+            {
+              "priority": "medium",
+              "title": " Build a \"best of\" page with your best blog posts that you wrote or contributed to other sites (ProBlogger calls this a \"\").",
+              "links": [
+                {
+                  "path": "https://problogger.com/create-a-sneeze-page-and-propel-readers-deep-within-your-blog/",
+                  "text": "Sneeze Page",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Make sure all blog posts have high quality images (see ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/free-stock-images/",
+                  "text": "this list of free stock image sites",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Create an online course or guide around your product/industry (be sure to ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/course-creation-tools",
+                  "text": "check out this list of course management tools",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Run an .",
+              "links": [
+                {
+                  "path": "https://www.reddit.com/r/startups/comments/7aap5u/influencer_marketing_summary_of_12_articles/",
+                  "text": "influencer marketing campaign",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Run a link-building campaign."
+            }
+          ]
+        },
+        {
+          "title": "Paid Promotional Channels",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Try a few social, search, and commission-based advertising platforms (see ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/online-advertising/",
+                  "text": "this big list of advertising platforms if you aren't sure where to start",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Sponsor a local meetup or conference for your target customers."
+            },
+            {
+              "priority": "medium",
+              "title": " Sponsor podcasts your customers might be listening to."
+            },
+            {
+              "priority": "medium",
+              "title": " Sponsor/advertise an industry newsletter (check out ).",
+              "links": [
+                {
+                  "path": "https://newsletter.city/",
+                  "text": "Newsletter.city",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Set up a user referral marketing system."
+            },
+            {
+              "priority": "medium",
+              "title": " Run an engagement contest with prizes or free products for winners."
+            },
+            {
+              "priority": "medium",
+              "title": " Run  to target users who have been to your site before.",
+              "links": [
+                {
+                  "path": "https://retargeter.com/what-is-retargeting-and-how-does-it-work",
+                  "text": "retargeting ads",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Recurring",
+      "categories": [
+        {
+          "title": "Blogging",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Build/update publishing calendar for your blog."
+            },
+            {
+              "priority": "medium",
+              "title": " Regularly post blog posts on your blog(s)."
+            },
+            {
+              "priority": "medium",
+              "title": " Solicit guest posts from early customers and fans of your product."
+            },
+            {
+              "priority": "medium",
+              "title": " Repurpose existing blog posts:"
+            }
+          ]
+        },
+        {
+          "title": "Email",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Send a regular email newsletter with blog posts, use cases, customer stories, etc."
+            },
+            {
+              "priority": "medium",
+              "title": " Promote email list on social media."
+            },
+            {
+              "priority": "medium",
+              "title": " Send 20 cold emails per week to connect with early customers and get direct feedback."
+            },
+            {
+              "priority": "medium",
+              "title": " Send new users a personal email introducing yourself."
+            }
+          ]
+        },
+        {
+          "title": "Social Media",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Schedule regular social media content (try these ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/social-media-tools",
+                  "text": "social media tools to help automate the social media process",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Join Facebook and Linkedin groups where your product might be beneficial."
+            },
+            {
+              "priority": "medium",
+              "title": " Send exclusive offers to LinkedIn/Facebook Group owners."
+            },
+            {
+              "priority": "medium",
+              "title": " Join Twitter chats related to your industry/product."
+            },
+            {
+              "priority": "medium",
+              "title": " Give early users discounts for taking pics with your product."
+            }
+          ]
+        },
+        {
+          "title": "Public Relations",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Ask bloggers with list articles to add your site to their content."
+            },
+            {
+              "priority": "medium",
+              "title": " Reach out to small business journals, reporters, bloggers. Inform and ask for coverage."
+            },
+            {
+              "priority": "medium",
+              "title": " Reach out to podcasters, try to get featured on their show."
+            },
+            {
+              "priority": "medium",
+              "title": " Find professors and students with .edu sites to link to your content (good for SEO)."
+            },
+            {
+              "priority": "medium",
+              "title": " Find reviews or lists of similar products. Ask to be added or leave a comment about your product."
+            },
+            {
+              "priority": "medium",
+              "title": " Guest post on other blogs."
+            },
+            {
+              "priority": "medium",
+              "title": " Leave non-spammy comments on blog posts related to your industry or product."
+            },
+            {
+              "priority": "medium",
+              "title": " Join and participate in forums related to your product or industry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_group": "Optimizations",
+      "categories": [
+        {
+          "title": "Optimizations",
+          "tasks": [
+            {
+              "priority": "medium",
+              "title": " Run a customer poll (can also generate content for your blog or social media channels)."
+            },
+            {
+              "priority": "medium",
+              "title": " Create another side project to promote your product ().",
+              "links": [
+                {
+                  "path": "https://medium.com/swlh/side-product-marketing-is-the-new-king-a75c4ed0c0c5",
+                  "text": "read more",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " A/B test your landing/payment pages (check out this ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/what-is-ab-testing/",
+                  "text": "introduction to A/B testing",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " A/B test email newsletters and promotions."
+            },
+            {
+              "priority": "medium",
+              "title": " Implement  on your blog posts.",
+              "links": [
+                {
+                  "path": "https://dev.twitter.com/cards/overview",
+                  "text": "Twitter cards",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Implement .",
+              "links": [
+                {
+                  "path": "https://developers.google.com/search/docs/guides/mark-up-content",
+                  "text": "rich snippets in Google search results",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Analyze user signup flow ().",
+              "links": [
+                {
+                  "path": "http://www.useronboard.com/",
+                  "text": "check out the teardowns here",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Test your website on multiple platforms, make sure speed is good."
+            },
+            {
+              "priority": "medium",
+              "title": " Use  to pinpoint website improvements.",
+              "links": [
+                {
+                  "path": "https://website.grader.com/",
+                  "text": "Website Grader",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Create and track weekly traffic and growth goals."
+            },
+            {
+              "priority": "medium",
+              "title": " Time social media posts and email newsletters to when your audience is most likely to respond."
+            },
+            {
+              "priority": "medium",
+              "title": " Make sure each page on your site has a clear call-to-action."
+            },
+            {
+              "priority": "medium",
+              "title": " Audit and improve your conversion rate (see )",
+              "links": [
+                {
+                  "path": "http://www.conversionchecklist.org/",
+                  "text": "this checklist for detailed steps you can take",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Set up automatic analytics reports to be emailed to you each week."
+            },
+            {
+              "priority": "medium",
+              "title": " Experiment with various signup form locations, colors, and sizes."
+            },
+            {
+              "priority": "medium",
+              "title": " Add \"Exit Intent\" popup to your blog/site."
+            },
+            {
+              "priority": "medium",
+              "title": " Create an FAQs page."
+            },
+            {
+              "priority": "medium",
+              "title": " Verify your website's tags are correct with .",
+              "links": [
+                {
+                  "path": "https://get.google.com/tagassistant/",
+                  "text": "Google Tag Assistant",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Watch a first time user use your product."
+            },
+            {
+              "priority": "medium",
+              "title": " Collect and display testimonials from happy users."
+            },
+            {
+              "priority": "medium",
+              "title": " Survey or poll your users for feedback (see our ).",
+              "links": [
+                {
+                  "path": "https://www.sideprojectchecklist.com/2017/survey-tools",
+                  "text": "list of survey tools for lots of great options at any budget",
+                  "type": "link"
+                }
+              ]
+            },
+            {
+              "priority": "medium",
+              "title": " Use  to find bugs and broken links of your site. Set up an alert to notify you on breakage.",
+              "links": [
+                {
+                  "path": "https://monkeytest.it/",
+                  "text": "Monkey Test It",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
