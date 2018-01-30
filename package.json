@@ -1,6 +1,6 @@
 {
   "name": "checklist-tools-website",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The perfect Checklist Website for meticulous developers.",
   "main": "src/index.js",
   "scripts": {

@@ -9,7 +9,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Make a list of competitors (see ).",
+              "explications": "Make a list of competitors (see ).",
+              "title":"Competitors list",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/competition-tools/",
@@ -20,15 +21,18 @@
             },
             {
               "priority": "medium",
-              "title": " Subscribe to RSS feeds of your competitors' blogs."
+              "explications": "Subscribe to RSS feeds of your competitors' blogs.",
+              "title":"Competitors RSS feeds"
             },
             {
               "priority": "medium",
-              "title": " Follow your competitors and their key employees on social media."
+              "explications": "Follow your competitors and their key employees on social media.",
+              "title":"Follow competitors"
             },
             {
               "priority": "medium",
-              "title": " Monitor competitors' websites for changes.",
+              "explications": "Monitor competitors websites for changes.",
+              "title":"Monitor competitors",
               "links": [
                 {
                   "path": "http://sitealerts.com/",
@@ -44,11 +48,13 @@
             },
             {
               "priority": "medium",
-              "title": " Subscribe to industry newsletters, magazines, trade journals etc."
+              "explications": "Subscribe to industry newsletters, magazines, trade journals etc.",
+              "title":"Do industry watch"
             },
             {
               "priority": "medium",
-              "title": " Use  to do initial demand and search volume research ().",
+              "explications": "Use Google to do initial demand and search volume research ().",
+              "title":"Demand and Search volume",
               "links": [
                 {
                   "path": "https://trends.google.com/trends/",
@@ -69,27 +75,33 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Find people in your contact list who might be future customers. Get their feedback on your idea."
+              "explications": "Find people in your contact list who might be future customers. Get their feedback on your idea.",
+              "title":"Find future customers"
             },
             {
               "priority": "medium",
-              "title": " Attend meetups or conferences for your target market."
+              "explications": "Attend meetups or conferences for your target market.",
+              "title":"Meetups or conferences"
             },
             {
               "priority": "medium",
-              "title": " Meet another entrepreneur who has a similar or competitive product."
+              "explications": "Meet another entrepreneur who has a similar or competitive product.",
+              "title":"Meet your competitors"
             },
             {
               "priority": "medium",
-              "title": " Make a list of your competitors' customers."
+              "explications": "Make a list of your competitors' customers.",
+              "title":"List your competitors"
             },
             {
               "priority": "medium",
-              "title": " Reach out to your competitors' customers, find out what they like/don't like."
+              "explications": "Reach out to your competitors' customers, find out what they like/don't like.",
+              "title":"Reach out competitors' customers "
             },
             {
               "priority": "medium",
-              "title": " Create an \"early access\" list for potential future customers."
+              "explications": "Create an \"early access\" list for potential future customers.",
+              "title":"Early access"
             }
           ]
         },
@@ -98,11 +110,13 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Create list of tech, startup, and industry blogs."
+              "explications": "Create list of tech, startup, and industry blogs.",
+              "title":"List of tech, startup, and industry blogs"
             },
             {
               "priority": "medium",
-              "title": " Create list of local small business journals (eg: ).",
+              "explications": "Create list of local small business journals eg: .",
+              "title":"List of local small business journals",
               "links": [
                 {
                   "path": "http://www.chicagobusiness.com/section/Contact-Us&template=mobile",
@@ -113,11 +127,12 @@
             },
             {
               "priority": "medium",
-              "title": " Create list of local bloggers and journalists in your industry."
+              "explications": "Create list of local bloggers and journalists in your industry.",
+              "title":"list of local bloggers and journalists"
             },
             {
               "priority": "medium",
-              "title": " Create a \"Media Kit\" page ().",
+              "title":"Create a \"Media Kit\" page.",
               "links": [
                 {
                   "path": "https://www.kickresume.com/mediakit/",
@@ -133,15 +148,17 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Come up with a name and domain name."
+              "explications": "Come up with a name and domain name.",
+              "title":"Name and domain name"
             },
             {
               "priority": "medium",
-              "title": " Write a site tagline and elevator pitch."
+              "explications": "Write a site tagline and elevator pitch.",
+              "title":"Tagline and elevator pitch"
             },
             {
               "priority": "medium",
-              "title": " Create a logo (see ).",
+              "title":"Logo",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/logos/",
@@ -152,7 +169,8 @@
             },
             {
               "priority": "medium",
-              "title": " Set up a landing page (see ).",
+              "explications": "Set up a landing page",
+              "title":"Landing page",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/landing-page-tools/",
@@ -163,11 +181,13 @@
             },
             {
               "priority": "medium",
-              "title": " Create \"About\" and \"Contact\" pages."
+              "explications": "Create \"About\" and \"Contact\" pages.",
+              "title":"About and Contact page"
             },
             {
               "priority": "medium",
-              "title": " Create Pricing page (see )",
+              "explications": "Create Pricing page",
+              "title":"Pricing page",
               "links": [
                 {
                   "path": "https://taprun.com/methods/",
@@ -178,15 +198,18 @@
             },
             {
               "priority": "medium",
-              "title": " Add social media follow links to landing page."
+              "explications": "Add social media follow links to landing page.",
+              "title":"Social media"
             },
             {
               "priority": "medium",
-              "title": " Set up analytics to learn about who signs up, bounces, etc."
+              "explications": "Set up analytics to learn about who signs up, bounces, etc.",
+              "title":"Analytics"
             },
             {
               "priority": "medium",
-              "title": " Set up on-site messaging to capture leads and engage customers as they land on your site (see our ).",
+              "explications": "Set up on-site messaging to capture leads and engage customers as they land on your site (see our ).",
+              "title":"Messaging",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/customer-chat-tools",
@@ -202,19 +225,23 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Set up email address to send and receive emails."
+              "explications": "Set up email address to send and receive emails.",
+              "title":"Email address"
             },
             {
               "priority": "medium",
-              "title": " Set up email list and signup form."
+              "explications": "Set up email list and signup form.",
+              "title":"Email list"
             },
             {
               "priority": "medium",
-              "title": " Create a standard email template for your brand."
+              "explications": "Create a standard email template for your brand.",
+              "title":"Standard email"
             },
             {
               "priority": "medium",
-              "title": " Create transactional emails for when users sign up/purchase."
+              "explications": "Create transactional emails for when users sign up/purchase.",
+              "title":"Transactional emails"
             }
           ]
         },
@@ -223,7 +250,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Choose a blogging platform (see this list of ).",
+              "explications": "Choose a blogging platform (see this list of ).",
+              "title":"Blogging platform",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/blogging-platforms",
@@ -234,15 +262,18 @@
             },
             {
               "priority": "medium",
-              "title": " Research keywords that you'd like your site/blog to rank for."
+              "explications": "Research keywords that you'd like your site/blog to rank for.",
+              "title":"Search keywords"
             },
             {
               "priority": "medium",
-              "title": " Create anchor posts or pages for keywords you'd like to rank for."
+              "explications": "Create anchor posts or pages for keywords you'd like to rank for.",
+              "title":"Anchor posts or pages for keywords"
             },
             {
               "priority": "medium",
-              "title": " Have a blog post brainstorming session (see this ).",
+              "explications": "Have a blog post brainstorming session (see this ).",
+              "title":"Blog post brainstorming",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/blog-post-ideas",
@@ -253,11 +284,13 @@
             },
             {
               "priority": "medium",
-              "title": " Add email signup form or link to all blog posts."
+              "explications": "Add email signup form or link to all blog posts.",
+              "title":"Email signup"
             },
             {
               "priority": "medium",
-              "title": " Add social media follow links to all blog posts."
+              "explications": "Add social media follow links to all blog posts.",
+              "title":"Social media"
             }
           ]
         },
@@ -266,7 +299,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Search for availability of names on social networks using .",
+              "explications": "Search for availability of names on social networks using .",
+              "title":"Search a name",
               "links": [
                 {
                   "path": "http://shareasale.com/r.cfm?b=170332&u=1653894&m=21886&urllink=&afftrack=",
@@ -277,15 +311,18 @@
             },
             {
               "priority": "medium",
-              "title": " Choose the social media accounts you'll use."
+              "explications": "Choose the social media accounts you'll use.",
+              "title":"Social media accounts"
             },
             {
               "priority": "medium",
-              "title": " Standardize profile image, background photo, links and call to action across social channels."
+              "explications": "Standardize profile image, background photo, links and call to action across social channels.",
+              "title":"Standardize images"
             },
             {
               "priority": "medium",
-              "title": " Put premium content behind \"\".",
+              "explications": "Put premium content behind.",
+              "title":"Premium content behind",
               "links": [
                 {
                   "path": "https://www.paywithatweet.com/",
@@ -306,7 +343,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Post your product on directories and review sites (Matt McCaffrey has compiled  or you can use a service like ).",
+              "explications": "Post your product on directories and review sites (Matt McCaffrey has compiled  or you can use a service like ).",
+              "title":"Product review",
               "links": [
                 {
                   "path": "https://github.com/mmccaff/PlacesToPostYourStartup",
@@ -322,7 +360,8 @@
             },
             {
               "priority": "medium",
-              "title": " Write and distribute a Press Release (here's a , or you can ).",
+              "explications": "Write and distribute a Press Release (here's a , or you can ).",
+              "title":"Press Release",
               "links": [
                 {
                   "path": "http://www.wajeez.com/writing-quick-press-releases/",
@@ -338,19 +377,23 @@
             },
             {
               "priority": "medium",
-              "title": " Write and distribute an eBook, exchange it for email signup."
+              "explications": "Write and distribute an eBook, exchange it for email signup.",
+              "title":"eBook"
             },
             {
               "priority": "medium",
-              "title": " Write and distribute a white paper, exchange it for email signup."
+              "explications": "Write and distribute a white paper, exchange it for email signup.",
+              "title":"White paper"
             },
             {
               "priority": "medium",
-              "title": " Give free access to influential bloggers in the industry."
+              "explications": "Give free access to influential bloggers in the industry.",
+              "title":"Influential bloggers"
             },
             {
               "priority": "medium",
-              "title": " Build a \"best of\" page with your best blog posts that you wrote or contributed to other sites (ProBlogger calls this a \"\").",
+              "explications": "Build a \"best of\" page with your best blog posts that you wrote or contributed to other sites (ProBlogger calls this a \"Sneeze Page\").",
+              "title":"Best of page",
               "links": [
                 {
                   "path": "https://problogger.com/create-a-sneeze-page-and-propel-readers-deep-within-your-blog/",
@@ -361,7 +404,8 @@
             },
             {
               "priority": "medium",
-              "title": " Make sure all blog posts have high quality images (see ).",
+              "explications": "Make sure all blog posts have high quality images (see ).",
+              "title":"High quality images",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/free-stock-images/",
@@ -372,7 +416,8 @@
             },
             {
               "priority": "medium",
-              "title": " Create an online course or guide around your product/industry (be sure to ).",
+              "explications": "Create an online course or guide around your product/industry (be sure to ).",
+              "title":"Online course or guide",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/course-creation-tools",
@@ -383,7 +428,8 @@
             },
             {
               "priority": "medium",
-              "title": " Run an .",
+              "explications": "Run an influencer marketing campaign.",
+              "title":"Influencer marketing campaign",
               "links": [
                 {
                   "path": "https://www.reddit.com/r/startups/comments/7aap5u/influencer_marketing_summary_of_12_articles/",
@@ -394,7 +440,8 @@
             },
             {
               "priority": "medium",
-              "title": " Run a link-building campaign."
+              "explications": "Run a link-building campaign.",
+              "title":"Link-building campaign"
             }
           ]
         },
@@ -403,7 +450,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Try a few social, search, and commission-based advertising platforms (see ).",
+              "title":"Advertising platforms",
+              "explications": "Try a few social, search, and commission-based advertising platforms (see ).",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/online-advertising/",
@@ -414,15 +462,18 @@
             },
             {
               "priority": "medium",
-              "title": " Sponsor a local meetup or conference for your target customers."
+              "explications": "Sponsor a local meetup or conference for your target customers.",
+              "title":"Local meetup or conference"
             },
             {
               "priority": "medium",
-              "title": " Sponsor podcasts your customers might be listening to."
+              "explications": "Sponsor podcasts your customers might be listening to.",
+              "title":"Podcasts"
             },
             {
               "priority": "medium",
-              "title": " Sponsor/advertise an industry newsletter (check out ).",
+              "explications": "Sponsor/advertise an industry newsletter (check out ).",
+              "title":"Industry newsletter",
               "links": [
                 {
                   "path": "https://newsletter.city/",
@@ -433,15 +484,18 @@
             },
             {
               "priority": "medium",
-              "title": " Set up a user referral marketing system."
+              "explications": "Set up a user referral marketing system.",
+              "title":"User referral marketing system"
             },
             {
               "priority": "medium",
-              "title": " Run an engagement contest with prizes or free products for winners."
+              "explications": "Run an engagement contest with prizes or free products for winners.",
+              "title":"Engagement contest"
             },
             {
               "priority": "medium",
-              "title": " Run  to target users who have been to your site before.",
+              "explications": "Run retargeting ad to target users who have been to your site before.",
+              "title":"Retargeting ad",
               "links": [
                 {
                   "path": "https://retargeter.com/what-is-retargeting-and-how-does-it-work",
@@ -462,19 +516,23 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Build/update publishing calendar for your blog."
+              "explications": "Build/update publishing calendar for your blog.",
+              "title":"Publishing calendar"
             },
             {
               "priority": "medium",
-              "title": " Regularly post blog posts on your blog(s)."
+              "explications": "Regularly post blog posts on your blog(s).",
+              "title":"Regularly blog posts"
             },
             {
               "priority": "medium",
-              "title": " Solicit guest posts from early customers and fans of your product."
+              "explications": "Solicit guest posts from early customers and fans of your product.",
+              "title":"Solicit guest posts"
             },
             {
               "priority": "medium",
-              "title": " Repurpose existing blog posts:"
+              "explications": "Repurpose existing blog posts",
+              "title":"Repurpose blog posts"
             }
           ]
         },
@@ -483,19 +541,23 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Send a regular email newsletter with blog posts, use cases, customer stories, etc."
+              "explications": "Send a regular email newsletter with blog posts, use cases, customer stories, etc.",
+              "title":"Regular email newsletter"
             },
             {
               "priority": "medium",
-              "title": " Promote email list on social media."
+              "explications": "Promote email list on social media.",
+              "title":"Promote email "
             },
             {
               "priority": "medium",
-              "title": " Send 20 cold emails per week to connect with early customers and get direct feedback."
+              "explications": "Send 20 cold emails per week to connect with early customers and get direct feedback.",
+              "title":"20 cold emails"
             },
             {
               "priority": "medium",
-              "title": " Send new users a personal email introducing yourself."
+              "explications": "Send new users a personal email introducing yourself.",
+              "title":"Send new users a personal email"
             }
           ]
         },
@@ -504,7 +566,8 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Schedule regular social media content (try these ).",
+              "explications": "Schedule regular social media content (try these ).",
+              "title":"",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/social-media-tools",
@@ -515,19 +578,23 @@
             },
             {
               "priority": "medium",
-              "title": " Join Facebook and Linkedin groups where your product might be beneficial."
+              "explications": "Join Facebook and Linkedin groups where your product might be beneficial.",
+              "title":"Join Facebook and Linkedin groups"
             },
             {
               "priority": "medium",
-              "title": " Send exclusive offers to LinkedIn/Facebook Group owners."
+              "explications": "Send exclusive offers to LinkedIn/Facebook Group owners.",
+              "title":"Send exclusive offers"
             },
             {
               "priority": "medium",
-              "title": " Join Twitter chats related to your industry/product."
+              "explications": "Join Twitter chats related to your industry/product.",
+              "title":"Join Twitter chats"
             },
             {
               "priority": "medium",
-              "title": " Give early users discounts for taking pics with your product."
+              "explications": "Give early users discounts for taking pics with your product.",
+              "title":"Give early users discounts"
             }
           ]
         },
@@ -536,35 +603,42 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Ask bloggers with list articles to add your site to their content."
+              "explications": "Ask bloggers with list articles to add your site to their content.",
+              "title":"Ask bloggers with list articles"
             },
             {
               "priority": "medium",
-              "title": " Reach out to small business journals, reporters, bloggers. Inform and ask for coverage."
+              "explications": "Reach out to small business journals, reporters, bloggers. Inform and ask for coverage.",
+              "title":"Reach out to small business journals"
             },
             {
               "priority": "medium",
-              "title": " Reach out to podcasters, try to get featured on their show."
+              "explications": "Reach out to podcasters, try to get featured on their show.",
+              "title":"Reach out to podcasters"
             },
             {
               "priority": "medium",
-              "title": " Find professors and students with .edu sites to link to your content (good for SEO)."
+              "explications": "Find professors and students with .edu sites to link to your content (good for SEO).",
+              "title":"Find professors and students"
             },
             {
               "priority": "medium",
-              "title": " Find reviews or lists of similar products. Ask to be added or leave a comment about your product."
+              "explications": "Find reviews or lists of similar products. Ask to be added or leave a comment about your product.",
+              "title":"Find reviews or lists of similar products"
             },
             {
               "priority": "medium",
-              "title": " Guest post on other blogs."
+              "title":"Guest post on other blogs"
             },
             {
               "priority": "medium",
-              "title": " Leave non-spammy comments on blog posts related to your industry or product."
+              "explications": "Leave non-spammy comments on blog posts related to your industry or product.",
+              "title":"Leave non-spammy comments"
             },
             {
               "priority": "medium",
-              "title": " Join and participate in forums related to your product or industry."
+              "explications": "Join and participate in forums related to your product or industry.",
+              "title":"Join and participate in forums"
             }
           ]
         }
@@ -578,11 +652,13 @@
           "tasks": [
             {
               "priority": "medium",
-              "title": " Run a customer poll (can also generate content for your blog or social media channels)."
+              "explications": "Run a customer poll (can also generate content for your blog or social media channels).",
+              "title":"Customer poll"
             },
             {
               "priority": "medium",
-              "title": " Create another side project to promote your product ().",
+              "explications": "Create another side project to promote your product ().",
+              "title":"Another side project",
               "links": [
                 {
                   "path": "https://medium.com/swlh/side-product-marketing-is-the-new-king-a75c4ed0c0c5",
@@ -593,7 +669,8 @@
             },
             {
               "priority": "medium",
-              "title": " A/B test your landing/payment pages (check out this ).",
+              "explications": "A/B test your landing/payment pages (check out this ).",
+              "title":"A/B test landing/payment page",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/what-is-ab-testing/",
@@ -604,11 +681,12 @@
             },
             {
               "priority": "medium",
-              "title": " A/B test email newsletters and promotions."
+              "title": "A/B test email newsletters and promotions.",
             },
             {
               "priority": "medium",
-              "title": " Implement  on your blog posts.",
+              "explications": "Implement Twitter cards on your blog posts.",
+              "title":"Twitter cards",
               "links": [
                 {
                   "path": "https://dev.twitter.com/cards/overview",
@@ -619,7 +697,8 @@
             },
             {
               "priority": "medium",
-              "title": " Implement .",
+              "explications": " Implement rich snippets in Google search results.",
+              "title":"Rich snippets",
               "links": [
                 {
                   "path": "https://developers.google.com/search/docs/guides/mark-up-content",
@@ -630,7 +709,7 @@
             },
             {
               "priority": "medium",
-              "title": " Analyze user signup flow ().",
+              "title": "Analyze user signup flow.",
               "links": [
                 {
                   "path": "http://www.useronboard.com/",
@@ -641,11 +720,13 @@
             },
             {
               "priority": "medium",
-              "title": " Test your website on multiple platforms, make sure speed is good."
+              "explications": "Test your website on multiple platforms, make sure speed is good.",
+              "title":"Test your website "
             },
             {
               "priority": "medium",
-              "title": " Use  to pinpoint website improvements.",
+              "explications": "Use Website Grader to pinpoint website improvements.",
+              "title":"Website Grader",
               "links": [
                 {
                   "path": "https://website.grader.com/",
@@ -656,19 +737,23 @@
             },
             {
               "priority": "medium",
-              "title": " Create and track weekly traffic and growth goals."
+              "explications": "Create and track weekly traffic and growth goals.",
+              "title":"Traffic"
             },
             {
               "priority": "medium",
-              "title": " Time social media posts and email newsletters to when your audience is most likely to respond."
+              "explications": "Time social media posts and email newsletters to when your audience is most likely to respond.",
+              "title":"Time social media posts and email"
             },
             {
               "priority": "medium",
-              "title": " Make sure each page on your site has a clear call-to-action."
+              "explications": "Make sure each page on your site has a clear call-to-action.",
+              "title":"Clear call-to-action."
             },
             {
               "priority": "medium",
-              "title": " Audit and improve your conversion rate (see )",
+              "explications": "Audit and improve your conversion rate (see )",
+              "title":"Conversion rate",
               "links": [
                 {
                   "path": "http://www.conversionchecklist.org/",
@@ -679,23 +764,28 @@
             },
             {
               "priority": "medium",
-              "title": " Set up automatic analytics reports to be emailed to you each week."
+              "explications": "Set up automatic analytics reports to be emailed to you each week.",
+              "title":"Automatic analytics report"
             },
             {
               "priority": "medium",
-              "title": " Experiment with various signup form locations, colors, and sizes."
+              "explications": "Experiment with various signup form locations, colors, and sizes.",
+              "title":"Various signup form"
             },
             {
               "priority": "medium",
-              "title": " Add \"Exit Intent\" popup to your blog/site."
+              "explications": "Add \"Exit Intent\" popup to your blog/site.",
+              "title":"Exit Intent"
             },
             {
               "priority": "medium",
-              "title": " Create an FAQs page."
+              "explications": "Create an FAQs page.",
+              "title":"FAQs page"
             },
             {
               "priority": "medium",
-              "title": " Verify your website's tags are correct with .",
+              "explications": "Verify your website's tags are correct with Google Tag Assistant.",
+              "title":"Website's tags",
               "links": [
                 {
                   "path": "https://get.google.com/tagassistant/",
@@ -706,15 +796,18 @@
             },
             {
               "priority": "medium",
-              "title": " Watch a first time user use your product."
+              "explications": "Watch a first time user use your product.",
+              "title":"First time user"
             },
             {
               "priority": "medium",
-              "title": " Collect and display testimonials from happy users."
+              "explications": "Collect and display testimonials from happy users.",
+              "title":"Testimonials"
             },
             {
               "priority": "medium",
-              "title": " Survey or poll your users for feedback (see our ).",
+              "explications": "Survey or poll your users for feedback (see our ).",
+              "title":"Feedback",
               "links": [
                 {
                   "path": "https://www.sideprojectchecklist.com/2017/survey-tools",
@@ -725,7 +818,8 @@
             },
             {
               "priority": "medium",
-              "title": " Use  to find bugs and broken links of your site. Set up an alert to notify you on breakage.",
+              "explications": "Use Monkey Test It to find bugs and broken links of your site. Set up an alert to notify you on breakage.",
+              "title":"Bugs",
               "links": [
                 {
                   "path": "https://monkeytest.it/",
