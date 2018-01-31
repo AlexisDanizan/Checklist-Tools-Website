@@ -31,16 +31,6 @@ export const SAVE =(state) => {
 
 export const RESET = ({checklists,done,team,project_name, ...state},selected) => {
 
-  /*checklists[selected].categories = checklists[selected].categories
-                                          .map((category) => {
-                                            category.tasks = category.tasks.map((task) => {
-                                              task.checked = false;
-                                              task.developped = false;
-                                              return task;
-                                            });
-                                            return category;
-                                        });*/
-
   checklists[selected].group_categories = checklists[selected].group_categories.map((group) =>{
     group.categories = group.categories.map((category) => {
       category.tasks = category.tasks.map((task) => {

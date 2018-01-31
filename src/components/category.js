@@ -1,17 +1,14 @@
-import { h } from 'preact-cycle';
-import Task from './task';
-import { Component } from 'preact';
+"use strict";
+import { Component } from "preact";
+import { h } from "preact-cycle";
+import Task from "./task";
 
-class Category extends Component{
-  render({category},state,ctx){
-    return(
-      <div className="column column-33">
+class Category extends Component {
+  render({ category }) {
+    return (
+      <div className="column column-33 show-on-mobile-">
         <h1>{category.title}</h1>
-        {
-          category.tasks.map((task) => {
-            return (<Task key={task.id} task={task} />);
-          })
-        }
+        {category.tasks.map(task => <Task key={task.id} task={task} />)}
       </div>
     );
   }

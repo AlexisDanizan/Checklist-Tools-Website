@@ -26,137 +26,155 @@ body,html,main {
   line-height: 1.15;
 }
 
-#app{
+#app {
   margin-top: -$navbar-size;
   padding-top: $navbar-size;
   min-height: 100%;
   padding-bottom: 2*$footer-size;
 }
 
+.hide-on-mobile{
+  @media (max-width: 40.0rem) {
+    display: none;
+  }
+}
+.show-on-mobile{
+  @media (max-width: 40.0rem) {
+    max-width: 100% !important;
+  }
+}
 
-nav{
+nav {
   height: $navbar-size;
   background-color: $navbar-bg-color;
   /*** GITHUb button **/
-  iframe{
+  iframe {
     margin-top: ($navbar-size - 28)/2;
     margin-right: $navbar-link-margin;
   }
 
-  a.navbar-link,a.brand{
+  .navbar-link, .brand {
     color: $navbar-typo-color;
     line-height: $navbar-size;
   }
-  a.brand{
+  .brand {
     font-size: $navbar-brand-font-size;
     text-transform: uppercase;
+    &:hover{
+      color: $grey;
+    }
   }
-  a.navbar-link{
+  .navbar-link {
     margin-right: $navbar-link-margin;
     transition: all 0.3s ease;
   }
-  a.navbar-link:hover{
+  .navbar-link:hover {
       color: $navbar-link-hover;
   }
-  i.fa{
+  i.fa {
     vertical-align: middle;
   }
 }
 
-header{
+header {
   background-color: $header-bg-color;
-  h3.checklist-name{
+  .checklist-name {
     text-align: center;
     padding: 1rem;
   }
-  input{
+  input, select {
     background-color: $header-bg-input !important;
   }
-  a.button{
+  .button {
     margin-right: 1rem;
-    i.fa{
+    i.fa {
       margin-right: 10px;
     }
   }
-  .status{
-    i.fa{
+  .toolbar {
+    div.button-toolbar {
+      padding-top: 24px;
+    }
+  }
+  .status {
+    i.fa {
       margin-right: 10px;
     }
-    i.high{
+    i.high {
       color: $red;
     }
-    i.medium{
+    i.medium {
       color: $orange;
     }
-    i.low{
+    i.low {
       color: $green;
     }
   }
 }
 
-.categories{
+.categories {
   width: 90%;
   margin: auto;
-  h1{
+  h1 {
     margin-top: 3rem;
     text-transform: uppercase;
-    &.group-title{
+    &.group-title {
       font-weight: bold;
       border-bottom: solid 1px $grey;
-      & a.go-top{
+      & .go-top {
         font-size: 2rem;
         text-transform: none;
         vertical-align: middle;
         transition: all 0.2s ease;
-        &:hover{
+        &:hover {
           color: $orange;
         }
       }
     }
 
   }
-  .task{
-    p,i.fa{
+  .task {
+    p, i.fa {
       margin-bottom: 0.5rem;
       cursor: pointer;
     }
-    i.fa{
+    i.fa {
       color: $yellow;
       margin: 0 0.5rem 0 0.5rem;
     }
-    i.checked{
+    i.checked {
       color: $green;
       text-decoration: none;
-      &.high{
+      &.high {
         color: $red;
       }
-      &.medium{
+      &.medium {
         color: $orange;
       }
-      &.low{
+      &.low {
         color: $green;
       }
     }
-    i.not-checked{
+    i.not-checked {
       color: $grey;
-      opacity: 0.3;
-      &.high{
+      opacity: 0.5;
+      &.high {
         color: $red;
       }
-      &.medium{
+      &.medium {
         color: $orange;
       }
-      &.low{
+      &.low {
         color: $green;
       }
     }
-    span.checked{
+    span.checked {
       text-decoration: line-through;
     }
   }
 }
 
-footer{
+footer {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -164,18 +182,18 @@ footer{
   margin-top: -$footer-size;
   text-align: center;
   background-color: $grey;
-  p{
+  p {
     margin: 0;
     height: $footer-size;
     line-height: $footer-size;
     color: $blue;
   }
-  .heart{
+  .heart {
     color: $red;
   }
 
 }
 
-.for-print{
+.for-print {
   display: none !important;
 }

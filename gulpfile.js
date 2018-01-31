@@ -24,10 +24,10 @@ const PATH = {
   "TEMPLATES": "./src/templates/*.html",
   "JS": "./src/index.js",
   "IMG": "./src/assets/img/**/*",
-  "FONTS": "./src/assets/fonts/**/*",
+  "FONTS": "./node_modules/font-awesome/fonts/**/*",
   "SASS": "./src/assets/sass/main.scss",
   "SASS_DIST": "./src/assets/css",
-  "CSS": "./src/assets/css/**/*.css",
+  "NORMALIZE_CSS": "./node_modules/normalize.css/normalize.css",
 };
 
 process.env.NODE_ENV = 'production';
@@ -107,7 +107,7 @@ gulp.task('sass',['js', 'html'], () =>
  * Add cross-browser rules, and minify css
  */
 gulp.task('postcss',['sass','js'], () =>
-  gulp.src(PATH.CSS)
+  gulp.src([PATH.NORMALIZE_CSS,PATH.SASS_DIST +"/main.css"])
     .pipe(concat('main.css'))
     .pipe(sourcemaps.init())
     .pipe(postcss([nano(),]))
