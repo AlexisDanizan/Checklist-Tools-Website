@@ -84,9 +84,9 @@ class Task extends Component {
             )}
             {task.links && (
               <ul className="fa-ul">
-                {task.links.map((link, i) => {
+                {task.links.map((link) => {
                   return (
-                    <li key={link}>
+                    <li>
                       <a href={link.path} target="_blank">
                         <i className={TypeIcon(link.type)} aria-hidden="true" />
                         {link.text}
